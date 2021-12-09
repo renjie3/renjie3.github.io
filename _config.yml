@@ -4,3 +4,6 @@ description: I have taught all my dancing skills to this Koala.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+github:
+  zip_url: /README.md
+  another_url: another value
