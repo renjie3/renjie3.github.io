@@ -13,8 +13,9 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="wrapper">
-      <header style="left: 10%">
+    <div class="wrapper" style="width: 80%;">
+      <!--header style="left: 10%"-->
+      <header>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
@@ -39,8 +40,9 @@
         </ul>
         {% endif %}
       </header>
-      <!--section style="width: 90%; position: relative; right: 300pt"-->
-      <section style="width: 90%; position: relative; right: -100pt;">
+      <section style="width: 67%; position: relative; right: -30pt">
+      <!--section style="width: 90%; position: relative; right: -100pt;"-->
+      <!-- <section> -->
 
       {{ content }}
 
