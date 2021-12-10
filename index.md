@@ -2,8 +2,35 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
+# About Me
+
+<!-- Text can be **bold**, _italic_, or ~~strikethrough~~. -->
+I am a fresh-year Ph.D. student of Department of Computer Science and Engineering at Michigan State University, advised by <a href="http://www.cse.msu.edu/~tangjili/" target="_blank" style="font-weight:normal">Professor Jiliang Tang</a> in <a href="http://dse.cse.msu.edu/" target="_blank" style="font-weight:normal">Data Science and Engineering Lab</a>. Before joining DSE, I was an algorithm engineer in Search Strategy Department, Baidu Inc. I got my bachelor degree from Tsinghua University where I spent my wonderful and unforgettable four years.
+<br> <br>
+My research interests include adversial attacks and defenses, the safety and robustness of deep learning. Now I am working on the robustness of self-supervised learning.
+<br> <br>
+My email address is renjie3 at msu.edu.
+<br> <br> 
+
+# Experience
+
+*   Algorithm Engineer: Big Search, Baidu Inc. 12.2020 - 08.2021 <br> Supervised by <a href="http://www.yindawei.com/" target="_blank" style="font-weight:normal">Dr. Dawei Yin </a>and <a href="http://wangshuaiqiang.net/" target="_blank" style="font-weight:normal">Dr. Shuaiqiang Wang </a>.
+*   Intern: Kuaishou Inc. 10.2019 - 05.2020
+<br> <br> 
+
+# Links
+
+I put my friends' links here since I don't have publications yet. I will try to remove them soon!
+<br>
+<a href="https://www.linkedin.com/in/rickyyunhaochen/" target="_blank" style="font-weight:normal">Yunhao Chen</a> and <a href="https://aiem.jhu.edu/people/jiang-liu/" target="_blank" style="font-weight:normal">Jiang Liu</a> were my roommates during undergraduate.
+<br>
+<a href="https://jiayuanding100.github.io/" target="_blank" style="font-weight:normal">Jiayuan Ding</a> and <a href="https://cse.msu.edu/~hanhaoy1/" target="_blank" style="font-weight:normal">Haoyu Han</a> are my current roommates.
+<br>
+Possibly, Yuxuan Wan will be my roommate next summer.
+<br> <br> 
+
+<!-- 
 [Link to another page](./another-page.html).
 
 There should be whitespace between paragraphs.
@@ -84,4 +111,4 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 <dd>Japan</dd>
 <dt>Color</dt>
 <dd>Green</dd>
-</dl>
+</dl> -->
