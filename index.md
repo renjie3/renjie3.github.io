@@ -30,6 +30,10 @@ I put my friends' links here since I don't have publications yet. I will try to 
 Possibly, Yuxuan Wan will be my roommate next summer.
 <br> <br> 
 
+<font style="font-family:'Georgia Italic';font-size:23px">PhD is short for
+  <font style="font-family:'Georgia Italic';font-size:23px;font-style:oblique">People have Dreams. </font>
+</font>
+
 <!-- 
 [Link to another page](./another-page.html).
 
