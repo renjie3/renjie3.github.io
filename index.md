@@ -27,7 +27,7 @@ I put my friends' links here since I don't have publications yet. I will try to 
 <br>
 <a href="https://jiayuanding100.github.io/" target="_blank" style="font-weight:normal">Jiayuan Ding</a> and <a href="https://cse.msu.edu/~hanhaoy1/" target="_blank" style="font-weight:normal">Haoyu Han</a> are my current roommates.
 <br>
-Possibly, Yuxuan Wan will be my roommate next summer.
+Possibly, <a href="https://wanyu42.github.io/" target="_blank" style="font-weight:normal">Yuxuan Wan</a> will be my roommate next summer.
 <br> <br> 
 
 <font style="font-family:'Georgia Italic';font-size:23px">PhD is short for
