@@ -19,7 +19,13 @@ My email address is renjie3 at msu.edu.
 *   Intern: Kuaishou Inc. 10.2019 - 05.2020
 <br> <br> 
 
-# Links
+# Publications
+
+*   Towards Adversarial Learning: From Evasion Attacks to Poisoning Attacks <br> Wentao Wang, Han Xu, Yuxuan Wan, Jie Ren, and Jiliang Tang. <br> ACM International Conference on Knowledge Discovery & Data Mining (KDD 2022).
+*   Uniting Heterogeneity, Inductiveness, and Efficiency for Graph Representation Learning <br> Tong Chen, Hongzhi Yin, Jie Ren, Zi Huang, Xiangliang Zhang, and Hao Wang. <br> IEEE Transactions on Knowledge and Data Engineering (2021). <br> (Work done as remote RA in UQ)
+<br> <br> 
+
+<!-- # Links
 
 I put my friends' links here since I don't have publications yet. I will try to remove them soon!
 <br>
@@ -28,7 +34,7 @@ I put my friends' links here since I don't have publications yet. I will try to 
 <a href="https://jiayuanding100.github.io/" target="_blank" style="font-weight:normal">Jiayuan Ding</a> and <a href="https://cse.msu.edu/~hanhaoy1/" target="_blank" style="font-weight:normal">Haoyu Han</a> are my current roommates.
 <br>
 Possibly, <a href="https://wanyu42.github.io/" target="_blank" style="font-weight:normal">Yuxuan Wan</a> will be my roommate next summer.
-<br> <br> 
+<br> <br> -->
 
 <font style="font-family:'Georgia Italic';font-size:23px">PhD is short for
   <font style="font-family:'Georgia Italic';font-size:23px;font-style:oblique">People have Dreams. </font>
