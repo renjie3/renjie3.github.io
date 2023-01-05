@@ -10,13 +10,13 @@ I am a second-year Ph.D. student of Department of Computer Science and Engineeri
 <br> <br>
 My research interests include adversial attacks and defenses, the safety and robustness of deep learning.
 <br> <br>
-My email address is renjie3 at msu.edu.
+Email address: renjie3 at msu.edu.
 <br> <br> 
 
 # Experience
 
-*   Algorithm Engineer: Big Search, Baidu Inc. 12.2020 - 08.2021 <br> Supervised by <a href="http://www.yindawei.com/" target="_blank" style="font-weight:normal">Dr. Dawei Yin </a>and <a href="http://wangshuaiqiang.net/" target="_blank" style="font-weight:normal">Dr. Shuaiqiang Wang </a>.
-*   Intern: Kuaishou Inc. 10.2019 - 05.2020
+*   Big Search, Baidu Inc. 12.2020 - 08.2021 <br> Supervised by <a href="http://www.yindawei.com/" target="_blank" style="font-weight:normal">Dr. Dawei Yin </a>and <a href="http://wangshuaiqiang.net/" target="_blank" style="font-weight:normal">Dr. Shuaiqiang Wang </a>.
+*   Kuaishou Inc. 10.2019 - 05.2020
 <br> <br> 
 
 # Publications
