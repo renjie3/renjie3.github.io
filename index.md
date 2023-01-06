@@ -10,7 +10,7 @@ I am a second-year Ph.D. student of Department of Computer Science and Engineeri
 <br> <br>
 My research interests include adversial attacks and defenses, the safety and robustness of deep learning.
 <br> <br>
-Email address: renjie3 at msu.edu.
+Email address: renjie3 at msu.edu
 <br> <br> 
 
 # Experience
