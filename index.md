@@ -19,14 +19,16 @@ Email address: renjie3 at msu.edu
 *   Kuaishou Inc. 10.2019 - 05.2020
 <br> <br> 
 
-# Preprints
+# Publications
+
+## Preprints
 
 *   <a href="https://arxiv.org/abs/2210.10114" target="_blank" style="font-weight:normal">Transferable Unlearnable Examples</a> <br> **Jie Ren**, Han Xu, Yuxuan Wan, Xingjun Ma, Lichao Sun, Jiliang Tang. <br> arXiv:2210.10114
 *   <a href="https://arxiv.org/abs/2210.09364" target="_blank" style="font-weight:normal">Probabilistic Categorical Adversarial Attack and Adversarial Training</a> <br> Penghei He, Han Xu, **Jie Ren**, Yuxuan Wan, Zitao Liu, Jiliang Tang. <br> arXiv:2210.09364
 *   <a href="https://arxiv.org/abs/2206.00769" target="_blank" style="font-weight:normal">Defense Against Gradient Leakage Attacks via Learning to Obscure Data</a> <br> Yuxuan Wan, Han Xu, Xiaorui Liu, **Jie Ren**, Wenqi Fan, Jiliang Tang. <br> arXiv:2206.00769
 <br> <br> 
 
-# Publications
+## Conference and Journal papers
 
 *   <a href="https://dl.acm.org/doi/abs/10.1145/3534678.3542608" target="_blank" style="font-weight:normal">Towards Adversarial Learning: From Evasion Attacks to Poisoning Attacks</a> <br> Wentao Wang, Han Xu, Yuxuan Wan, **Jie Ren**, and Jiliang Tang. <br> ACM International Conference on Knowledge Discovery & Data Mining (KDD 2022).
 *   <a href="https://ieeexplore.ieee.org/document/9835353" target="_blank" style="font-weight:normal">Uniting Heterogeneity, Inductiveness, and Efficiency for Graph Representation Learning</a> <br> Tong Chen, Hongzhi Yin, **Jie Ren**, Zi Huang, Xiangliang Zhang, and Hao Wang. <br> IEEE Transactions on Knowledge and Data Engineering (2021). <br> (Work done as remote RA at UQ)
