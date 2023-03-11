@@ -29,7 +29,7 @@ Email address: renjie3 at msu.edu
 
 ### Conference and Journal papers
 
-*   <a href="https://arxiv.org/abs/2210.10114" target="_blank" style="font-weight:normal">Transferable Unlearnable Examples</a> <br> **Jie Ren**, Han Xu, Yuxuan Wan, Xingjun Ma, Lichao Sun, Jiliang Tang. <br> To appear in ICLR 2023
+*   <a href="https://openreview.net/forum?id=-htnolWDLvP" target="_blank" style="font-weight:normal">Transferable Unlearnable Examples</a> <br> **Jie Ren**, Han Xu, Yuxuan Wan, Xingjun Ma, Lichao Sun, Jiliang Tang. <br> In Proceedings of International Conference on LearningRepresentations (ICLR 2023).
 *   <a href="https://dl.acm.org/doi/abs/10.1145/3534678.3542608" target="_blank" style="font-weight:normal">Towards Adversarial Learning: From Evasion Attacks to Poisoning Attacks</a> <br> Wentao Wang, Han Xu, Yuxuan Wan, **Jie Ren**, and Jiliang Tang. <br> ACM International Conference on Knowledge Discovery & Data Mining (KDD 2022).
 *   <a href="https://ieeexplore.ieee.org/document/9835353" target="_blank" style="font-weight:normal">Uniting Heterogeneity, Inductiveness, and Efficiency for Graph Representation Learning</a> <br> Tong Chen, Hongzhi Yin, **Jie Ren**, Zi Huang, Xiangliang Zhang, and Hao Wang. <br> IEEE Transactions on Knowledge and Data Engineering (2021). <br> (Work done as remote RA at UQ)
 <br> <br> 
