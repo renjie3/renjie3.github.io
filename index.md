@@ -24,6 +24,8 @@ Email address: renjie3 at msu.edu
 ### Preprints
 *   <a href="https://arxiv.org/abs/2306.04642" target="_blank" style="font-weight:normal">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a> <br> **Jie Ren**, Yingqian Cui, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Jiliang Tang <br> arXiv:2306.04642
 <br>
+*   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> arXiv:2305.14851
+<br>
 *   <a href="https://arxiv.org/abs/2206.00769" target="_blank" style="font-weight:normal">Defense Against Gradient Leakage Attacks via Learning to Obscure Data</a> <br> Yuxuan Wan, Han Xu, Xiaorui Liu, **Jie Ren**, Wenqi Fan, Jiliang Tang. <br> arXiv:2206.00769
 <br>
 
