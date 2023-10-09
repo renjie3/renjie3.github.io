@@ -40,7 +40,7 @@ Email address: renjie3 at msu.edu
 <br>
 *   <a href="https://arxiv.org/abs/2310.01307" target="_blank" style="font-weight:normal">On the Generalization of Training-based ChatGPT Detection Methods</a> <br> Han Xu, **Jie Ren**, Pengfei He, Shenglai Zeng, Yingqian Cui, Amy Liu, Hui Liu, Jiliang Tang <br> Preprint arXiv:2310.01307
 <br>
-*   <a href="https://arxiv.org/abs/2306.04642" target="_blank" style="font-weight:normal">Confidence-driven Sampling for Backdoor Attacks</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Shenglai Zeng, Yue Xing, Jiliang Tang, Makoto Yamada, Mohammad Sabokrou <br> To be released
+*   <a href="" target="_blank" style="font-weight:normal">Confidence-driven Sampling for Backdoor Attacks</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Shenglai Zeng, Yue Xing, Jiliang Tang, Makoto Yamada, Mohammad Sabokrou <br> To be released
 <br>
 *   <a href="https://arxiv.org/abs/2306.04642" target="_blank" style="font-weight:normal">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a> <br> **Jie Ren**, Yingqian Cui, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Yue Xing, Jiliang Tang <br> Preprint arXiv:2306.04642
 <br>
