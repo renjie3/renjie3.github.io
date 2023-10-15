@@ -36,11 +36,11 @@ Email address: renjie3 at msu.edu
 
 *   <a href="https://arxiv.org/abs/2310.02401" target="_blank" style="font-weight:normal">FT-Shield: A Watermark Against Unauthorized Fine-tuning in Text-to-Image Diffusion Models</a> <br> Yingqian Cui, **Jie Ren**, Yuping Lin, Han Xu, Pengfei He, Yue Xing, Wenqi Fan, Hui Liu, Jiliang Tang <br> Preprint arXiv:2310.02401
 <br>
-*   <a href="" target="_blank" style="font-weight:normal">Exploring Memorization in Fine-tuned Language Models</a> <br> Shenglai Zeng, Yaxin Li, **Jie Ren**, Yiding Liu, Han Xu, Pengfei He, Yue Xing, Jiliang Tang, Dawei Yin <br> To be released
+*   <a href="https://arxiv.org/abs/2310.06714" target="_blank" style="font-weight:normal">Exploring Memorization in Fine-tuned Language Models</a> <br> Shenglai Zeng, Yaxin Li, **Jie Ren**, Yiding Liu, Han Xu, Pengfei He, Yue Xing, Jiliang Tang, Dawei Yin <br> Preprint arXiv:2310.06714
 <br>
 *   <a href="https://arxiv.org/abs/2310.01307" target="_blank" style="font-weight:normal">On the Generalization of Training-based ChatGPT Detection Methods</a> <br> Han Xu, **Jie Ren**, Pengfei He, Shenglai Zeng, Yingqian Cui, Amy Liu, Hui Liu, Jiliang Tang <br> Preprint arXiv:2310.01307
 <br>
-*   <a href="" target="_blank" style="font-weight:normal">Confidence-driven Sampling for Backdoor Attacks</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Shenglai Zeng, Yue Xing, Jiliang Tang, Makoto Yamada, Mohammad Sabokrou <br> To be released
+*   <a href="https://arxiv.org/abs/2310.05263" target="_blank" style="font-weight:normal">Confidence-driven Sampling for Backdoor Attacks</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Shenglai Zeng, Yue Xing, Jiliang Tang, Makoto Yamada, Mohammad Sabokrou <br> Preprint arXiv:2310.05263
 <br>
 *   <a href="https://arxiv.org/abs/2306.04642" target="_blank" style="font-weight:normal">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a> <br> **Jie Ren**, Yingqian Cui, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Yue Xing, Jiliang Tang <br> Preprint arXiv:2306.04642
 <br>
