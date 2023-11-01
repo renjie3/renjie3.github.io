@@ -44,7 +44,7 @@ Email address: renjie3 at msu.edu
 <br>
 *   <a href="https://arxiv.org/abs/2310.05263" target="_blank" style="font-weight:normal">Confidence-driven Sampling for Backdoor Attacks</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Shenglai Zeng, Yue Xing, Jiliang Tang, Makoto Yamada, Mohammad Sabokrou <br> Preprint arXiv:2310.05263
 <br>
-*   <a href="https://arxiv.org/abs/2306.04642" target="_blank" style="font-weight:normal">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a> <br> **Jie Ren**, Yingqian Cui, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Yue Xing, Jiliang Tang <br> Preprint arXiv:2306.04642
+*   <a href="https://arxiv.org/abs/2306.04642" target="_blank" style="font-weight:normal">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a> <br> **Jie Ren**\*, Yingqian Cui\*, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Yue Xing, Jiliang Tang <br> Preprint arXiv:2306.04642
 <br>
 *   <a href="https://arxiv.org/abs/2210.09364" target="_blank" style="font-weight:normal">Probabilistic Categorical Adversarial Attack and Adversarial Training</a> <br> Penghei He, Han Xu, **Jie Ren**, Yuxuan Wan, Zitao Liu, Jiliang Tang. <br> International Conference on Machine Learning (ICML), 2023.
 *   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> Preprint arXiv:2305.14851
