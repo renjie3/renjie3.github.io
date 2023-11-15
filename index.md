@@ -6,7 +6,7 @@ layout: default
 # About Me
 
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. -->
-I am a second-year Ph.D. student of Department of Computer Science and Engineering at Michigan State University, advised by <a href="http://www.cse.msu.edu/~tangjili/" target="_blank" style="font-weight:normal">Professor Jiliang Tang</a> in <a href="http://dse.cse.msu.edu/" target="_blank" style="font-weight:normal">Data Science and Engineering Lab</a>. Before joining DSE, I was an algorithm engineer in Search Strategy Department, Baidu Inc. I got my bachelor degree from Tsinghua University where I spent my wonderful and unforgettable four years.
+I am a thrid-year Ph.D. student of Department of Computer Science and Engineering at Michigan State University, advised by <a href="http://www.cse.msu.edu/~tangjili/" target="_blank" style="font-weight:normal">Professor Jiliang Tang</a> in <a href="http://dse.cse.msu.edu/" target="_blank" style="font-weight:normal">Data Science and Engineering Lab</a>. Before joining DSE, I was an algorithm engineer in Search Strategy Department, Baidu Inc. I got my bachelor degree from Tsinghua University where I spent my wonderful and unforgettable four years.
 <br> <br>
 My research interests include adversarial attacks and defenses, the safety and robustness of deep learning.
 <br> <br>
