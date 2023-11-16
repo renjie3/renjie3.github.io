@@ -8,7 +8,7 @@ layout: default
 <!-- Text can be **bold**, _italic_, or ~~strikethrough~~. -->
 I am a thrid-year Ph.D. student of Department of Computer Science and Engineering at Michigan State University, advised by <a href="http://www.cse.msu.edu/~tangjili/" target="_blank" style="font-weight:normal">Professor Jiliang Tang</a> in <a href="http://dse.cse.msu.edu/" target="_blank" style="font-weight:normal">Data Science and Engineering Lab</a>. Before joining DSE, I was an algorithm engineer in Search Strategy Department, Baidu Inc. I got my bachelor degree from Tsinghua University where I spent my wonderful and unforgettable four years.
 <br> <br>
-My research interests include adversarial attacks and defenses, the safety and robustness of deep learning.
+My research interests include adversarial attacks and defenses, robustness of deep learning, and copyright protection in deep learning.
 <br> <br>
 Email address: renjie3 at msu.edu
 <br> <br> 
@@ -34,7 +34,11 @@ Email address: renjie3 at msu.edu
 
 ### Conference and Journal papers
 
+*   <a href="" target="_blank" style="font-weight:normal">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</a> <br> **Jie Ren**, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin, Jiliang Tang <br> Preprint arXiv:2311.08721
+<br>
 *   <a href="" target="_blank" style="font-weight:normal">Neural Style Protection: Counteracting Unauthorized Neural Style Transfer</a> <br> **Jie Ren**\*, Yaxin Li\*, Han Xu, Hui Liu <br> Winter Conference on Applications of Computer Vision (WACV) 2024
+<br>
+*   <a href="https://arxiv.org/abs/2306.04642" target="_blank" style="font-weight:normal">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a> <br> **Jie Ren**\*, Yingqian Cui\*, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Yue Xing, Jiliang Tang <br> Preprint arXiv:2306.04642
 <br>
 *   <a href="https://arxiv.org/abs/2310.02401" target="_blank" style="font-weight:normal">FT-Shield: A Watermark Against Unauthorized Fine-tuning in Text-to-Image Diffusion Models</a> <br> Yingqian Cui, **Jie Ren**, Yuping Lin, Han Xu, Pengfei He, Yue Xing, Wenqi Fan, Hui Liu, Jiliang Tang <br> Preprint arXiv:2310.02401
 <br>
@@ -43,8 +47,6 @@ Email address: renjie3 at msu.edu
 *   <a href="https://arxiv.org/abs/2310.01307" target="_blank" style="font-weight:normal">On the Generalization of Training-based ChatGPT Detection Methods</a> <br> Han Xu, **Jie Ren**, Pengfei He, Shenglai Zeng, Yingqian Cui, Amy Liu, Hui Liu, Jiliang Tang <br> Preprint arXiv:2310.01307
 <br>
 *   <a href="https://arxiv.org/abs/2310.05263" target="_blank" style="font-weight:normal">Confidence-driven Sampling for Backdoor Attacks</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Shenglai Zeng, Yue Xing, Jiliang Tang, Makoto Yamada, Mohammad Sabokrou <br> Preprint arXiv:2310.05263
-<br>
-*   <a href="https://arxiv.org/abs/2306.04642" target="_blank" style="font-weight:normal">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a> <br> **Jie Ren**\*, Yingqian Cui\*, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Yue Xing, Jiliang Tang <br> Preprint arXiv:2306.04642
 <br>
 *   <a href="https://arxiv.org/abs/2210.09364" target="_blank" style="font-weight:normal">Probabilistic Categorical Adversarial Attack and Adversarial Training</a> <br> Penghei He, Han Xu, **Jie Ren**, Yuxuan Wan, Zitao Liu, Jiliang Tang. <br> International Conference on Machine Learning (ICML), 2023.
 *   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> Preprint arXiv:2305.14851
