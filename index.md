@@ -35,7 +35,7 @@ Email address: renjie3 at msu.edu
 ### Conference and Journal papers
 
 *   <a href="https://arxiv.org/abs/2311.08721" target="_blank" style="font-weight:normal">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</a> <br> **Jie Ren**, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin, Jiliang Tang <br>  arXiv:2311.08721
-<br> <div style="margin-bottom: 10px;">Your content here</div>
+<br><font style="font-family:'Georgia Italic';font-size:10px"> </font>
 *   <a href="https://openaccess.thecvf.com/content/WACV2024/html/Li_Neural_Style_Protection_Counteracting_Unauthorized_Neural_Style_Transfer_WACV_2024_paper.html" target="_blank" style="font-weight:normal">Neural Style Protection: Counteracting Unauthorized Neural Style Transfer</a> <br> **Jie Ren**\*, Yaxin Li\*, Han Xu, Hui Liu <br> Winter Conference on Applications of Computer Vision (WACV) 2024
 <br>
 *   <a href="https://arxiv.org/abs/2306.04642" target="_blank" style="font-weight:normal">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a> <br> **Jie Ren**\*, Yingqian Cui\*, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Yue Xing, Jiliang Tang <br> arXiv:2306.04642
