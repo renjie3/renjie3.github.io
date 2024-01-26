@@ -38,9 +38,9 @@ Email address: renjie3 at msu.edu
 <div style="height: -50px;"> </div>
 *   <a href="https://openaccess.thecvf.com/content/WACV2024/html/Li_Neural_Style_Protection_Counteracting_Unauthorized_Neural_Style_Transfer_WACV_2024_paper.html" target="_blank" style="font-weight:normal">Neural Style Protection: Counteracting Unauthorized Neural Style Transfer</a> <br> **Jie Ren**\*, Yaxin Li\*, Han Xu, Hui Liu <br> Winter Conference on Applications of Computer Vision (WACV) 2024
 <br>
-<div style="height: 1px;">test </div>
 *   <a href="https://arxiv.org/abs/2306.04642" target="_blank" style="font-weight:normal">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a> <br> **Jie Ren**\*, Yingqian Cui\*, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Yue Xing, Jiliang Tang <br> arXiv:2306.04642
 <br>
+<div style="height: 1px;">test </div>
 *   <a href="https://arxiv.org/abs/2310.02401" target="_blank" style="font-weight:normal">FT-Shield: A Watermark Against Unauthorized Fine-tuning in Text-to-Image Diffusion Models</a> <br> Yingqian Cui, **Jie Ren**, Yuping Lin, Han Xu, Pengfei He, Yue Xing, Wenqi Fan, Hui Liu, Jiliang Tang <br> arXiv:2310.02401
 <br>
 *   <a href="https://arxiv.org/abs/2310.06714" target="_blank" style="font-weight:normal">Exploring Memorization in Fine-tuned Language Models</a> <br> Shenglai Zeng, Yaxin Li, **Jie Ren**, Yiding Liu, Han Xu, Pengfei He, Yue Xing, Jiliang Tang, Dawei Yin <br> arXiv:2310.06714
