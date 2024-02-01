@@ -53,6 +53,7 @@ Email address: renjie3 at msu.edu
 *   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> arXiv:2305.14851
 
 *   <a href="https://openreview.net/forum?id=-htnolWDLvP" target="_blank" style="font-weight:normal">Transferable Unlearnable Examples</a> <br> **Jie Ren**, Han Xu, Yuxuan Wan, Xingjun Ma, Lichao Sun, Jiliang Tang. <br> International Conference on LearningRepresentations (ICLR), 2023.
+
 *   <a href="https://arxiv.org/abs/2206.00769" target="_blank" style="font-weight:normal">Defense Against Gradient Leakage Attacks via Learning to Obscure Data</a> <br> Yuxuan Wan, Han Xu, Xiaorui Liu, **Jie Ren**, Wenqi Fan, Jiliang Tang. <br> arXiv:2206.00769
 
 *   <a href="https://ieeexplore.ieee.org/document/9835353" target="_blank" style="font-weight:normal">Uniting Heterogeneity, Inductiveness, and Efficiency for Graph Representation Learning</a> <br> Tong Chen, Hongzhi Yin, **Jie Ren**, Zi Huang, Xiangliang Zhang, and Hao Wang. <br> IEEE Transactions on Knowledge and Data Engineering ,2021. <br> (Work done as remote RA at UQ)
