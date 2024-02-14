@@ -52,9 +52,9 @@ Email address: renjie3 at msu.edu
 
 *   <a href="https://arxiv.org/abs/2210.09364" target="_blank" style="font-weight:normal">Probabilistic Categorical Adversarial Attack and Adversarial Training</a> <br> Penghei He, Han Xu, **Jie Ren**, Yuxuan Wan, Zitao Liu, Jiliang Tang. <br> International Conference on Machine Learning (ICML), 2023.
 
-*   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> arXiv:2305.14851
+*   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> International Conference on Learning Representations (ICLR), 2024.
 
-*   <a href="https://openreview.net/forum?id=-htnolWDLvP" target="_blank" style="font-weight:normal">Transferable Unlearnable Examples</a> <br> **Jie Ren**, Han Xu, Yuxuan Wan, Xingjun Ma, Lichao Sun, Jiliang Tang. <br> International Conference on LearningRepresentations (ICLR), 2023.
+*   <a href="https://openreview.net/forum?id=-htnolWDLvP" target="_blank" style="font-weight:normal">Transferable Unlearnable Examples</a> <br> **Jie Ren**, Han Xu, Yuxuan Wan, Xingjun Ma, Lichao Sun, Jiliang Tang. <br> International Conference on Learning Representations (ICLR), 2023.
 
 *   <a href="https://arxiv.org/abs/2206.00769" target="_blank" style="font-weight:normal">Defense Against Gradient Leakage Attacks via Learning to Obscure Data</a> <br> Yuxuan Wan, Han Xu, Xiaorui Liu, **Jie Ren**, Wenqi Fan, Jiliang Tang. <br> arXiv:2206.00769
 
