@@ -36,7 +36,11 @@ Email address: renjie3 at msu.edu
 
 *   <a href="https://arxiv.org/abs/2402.02333" target="_blank" style="font-weight:normal">Copyright Protection in Generative AI: A Technical Perspective</a> <br> **Jie Ren**, Han Xu, Pengfei He, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi Wen, Jiayuan Ding, Hui Liu, Yi Chang, Jiliang Tang <br>  arXiv:2402.02333
 
+*   <a href="https://arxiv.org/abs/2402.16893" target="_blank" style="font-weight:normal">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)</a> <br> Shenglai Zeng, Jiankun Zhang, Pengfei He, Yue Xing, Yiding Liu, Han Xu, **Jie Ren**, Shuaiqiang Wang, Dawei Yin, Yi Chang, Jiliang Tang <br>  arXiv:2402.16893
+
 *   <a href="https://arxiv.org/abs/2311.08721" target="_blank" style="font-weight:normal">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</a> <br> **Jie Ren**, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin, Jiliang Tang <br>  arXiv:2311.08721
+
+*   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> International Conference on Learning Representations (ICLR), 2024.
 
 *   <a href="https://openaccess.thecvf.com/content/WACV2024/html/Li_Neural_Style_Protection_Counteracting_Unauthorized_Neural_Style_Transfer_WACV_2024_paper.html" target="_blank" style="font-weight:normal">Neural Style Protection: Counteracting Unauthorized Neural Style Transfer</a> <br> **Jie Ren**\*, Yaxin Li\*, Han Xu, Hui Liu <br> Winter Conference on Applications of Computer Vision (WACV) 2024
 
@@ -51,8 +55,6 @@ Email address: renjie3 at msu.edu
 *   <a href="https://arxiv.org/abs/2310.05263" target="_blank" style="font-weight:normal">Confidence-driven Sampling for Backdoor Attacks</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Shenglai Zeng, Yue Xing, Jiliang Tang, Makoto Yamada, Mohammad Sabokrou <br> arXiv:2310.05263
 
 *   <a href="https://arxiv.org/abs/2210.09364" target="_blank" style="font-weight:normal">Probabilistic Categorical Adversarial Attack and Adversarial Training</a> <br> Penghei He, Han Xu, **Jie Ren**, Yuxuan Wan, Zitao Liu, Jiliang Tang. <br> International Conference on Machine Learning (ICML), 2023.
-
-*   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> International Conference on Learning Representations (ICLR), 2024.
 
 *   <a href="https://openreview.net/forum?id=-htnolWDLvP" target="_blank" style="font-weight:normal">Transferable Unlearnable Examples</a> <br> **Jie Ren**, Han Xu, Yuxuan Wan, Xingjun Ma, Lichao Sun, Jiliang Tang. <br> International Conference on Learning Representations (ICLR), 2023.
 
