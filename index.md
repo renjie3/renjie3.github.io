@@ -21,24 +21,16 @@ Email address: renjie3 at msu.edu
 
 # Publications
 
-<!-- ### Preprints
-*   <a href="https://arxiv.org/abs/2306.04642" target="_blank" style="font-weight:normal">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a> <br> **Jie Ren**, Yingqian Cui, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Jiliang Tang <br> arXiv:2306.04642
-<br>
-*   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> arXiv:2305.14851
-<br>
-*   <a href="https://arxiv.org/abs/2206.00769" target="_blank" style="font-weight:normal">Defense Against Gradient Leakage Attacks via Learning to Obscure Data</a> <br> Yuxuan Wan, Han Xu, Xiaorui Liu, **Jie Ren**, Wenqi Fan, Jiliang Tang. <br> arXiv:2206.00769
-<br> -->
-
 ### Tutorials
 *   <a href="https://dl.acm.org/doi/abs/10.1145/3534678.3542608" target="_blank" style="font-weight:normal">Towards Adversarial Learning: From Evasion Attacks to Poisoning Attacks</a> <br> Wentao Wang, Han Xu, Yuxuan Wan, **Jie Ren**, and Jiliang Tang. <br> ACM International Conference on Knowledge Discovery & Data Mining (KDD), 2022.
 
 ### Conference and Journal papers
 
-*   <a href="https://arxiv.org/abs/2402.02333" target="_blank" style="font-weight:normal">Copyright Protection in Generative AI: A Technical Perspective</a> <br> **Jie Ren**, Han Xu, Pengfei He, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi Wen, Jiayuan Ding, Hui Liu, Yi Chang, Jiliang Tang <br>  arXiv:2402.02333
+*   <a href="https://arxiv.org/abs/2402.02333" target="_blank" style="font-weight:normal">Copyright Protection in Generative AI: A Technical Perspective</a> <br> **Jie Ren**, Han Xu, Pengfei He, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi Wen, Jiayuan Ding, Hui Liu, Yi Chang, Jiliang Tang <br>  *arXiv:2402.02333*
 
-*   <a href="https://arxiv.org/abs/2402.16893" target="_blank" style="font-weight:normal">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)</a> <br> Shenglai Zeng, Jiankun Zhang, Pengfei He, Yue Xing, Yiding Liu, Han Xu, **Jie Ren**, Shuaiqiang Wang, Dawei Yin, Yi Chang, Jiliang Tang <br>  arXiv:2402.16893
+*   <a href="https://arxiv.org/abs/2402.16893" target="_blank" style="font-weight:normal">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)</a> <br> Shenglai Zeng, Jiankun Zhang, Pengfei He, Yue Xing, Yiding Liu, Han Xu, **Jie Ren**, Shuaiqiang Wang, Dawei Yin, Yi Chang, Jiliang Tang <br>  *arXiv:2402.16893*
 
-*   <a href="https://arxiv.org/abs/2311.08721" target="_blank" style="font-weight:normal">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</a> <br> **Jie Ren**, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin, Jiliang Tang <br>  arXiv:2311.08721
+*   <a href="https://arxiv.org/abs/2311.08721" target="_blank" style="font-weight:normal">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</a> <br> **Jie Ren**, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin, Jiliang Tang <br>  *Findings of NAACL, 2024*
 
 *   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> International Conference on Learning Representations (ICLR), 2024.
 
