@@ -13,6 +13,12 @@ My research interests include adversarial attacks and defenses, robustness of de
 Email address: renjie3 at msu.edu
 <br> <br> 
 
+# News
+
+*   2024.03 I will start my research internship at Sony.
+*   2024.03 Our paper, A Robust Semantics-based Watermark for Large Language Model against Paraphrasing, is accepted by NAACL Findings.
+<br> <br> 
+
 # Experience
 
 *   Big Search, Baidu Inc. 12.2020 - 08.2021 <br> Supervised by <a href="http://www.yindawei.com/" target="_blank" style="font-weight:normal">Dr. Dawei Yin </a>and <a href="http://wangshuaiqiang.net/" target="_blank" style="font-weight:normal">Dr. Shuaiqiang Wang </a>.
@@ -26,11 +32,11 @@ Email address: renjie3 at msu.edu
 
 ### Conference and Journal papers
 
+*   <a href="https://arxiv.org/abs/2311.08721" target="_blank" style="font-weight:normal">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</a> <br> **Jie Ren**, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin, Jiliang Tang <br>  *Findings of NAACL, 2024*
+
 *   <a href="https://arxiv.org/abs/2402.02333" target="_blank" style="font-weight:normal">Copyright Protection in Generative AI: A Technical Perspective</a> <br> **Jie Ren**, Han Xu, Pengfei He, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi Wen, Jiayuan Ding, Hui Liu, Yi Chang, Jiliang Tang <br>  *arXiv:2402.02333*
 
 *   <a href="https://arxiv.org/abs/2402.16893" target="_blank" style="font-weight:normal">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)</a> <br> Shenglai Zeng, Jiankun Zhang, Pengfei He, Yue Xing, Yiding Liu, Han Xu, **Jie Ren**, Shuaiqiang Wang, Dawei Yin, Yi Chang, Jiliang Tang <br>  *arXiv:2402.16893*
-
-*   <a href="https://arxiv.org/abs/2311.08721" target="_blank" style="font-weight:normal">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</a> <br> **Jie Ren**, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin, Jiliang Tang <br>  *Findings of NAACL, 2024*
 
 *   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> *International Conference on Learning Representations (ICLR), 2024*
 
