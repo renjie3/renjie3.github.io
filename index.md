@@ -17,6 +17,7 @@ Email address: renjie3 at msu.edu
 
 *   2024.03 I will start my internship at Sony in March.
 *   2024.03 Our paper, A Robust Semantics-based Watermark for Large Language Model against Paraphrasing, is accepted by NAACL Findings.
+*   2024.02 The preprint of our survey, Copyright Protection in Generative AI: A Technical Perspective, is released. 
 <br> <br> 
 
 # Experience
