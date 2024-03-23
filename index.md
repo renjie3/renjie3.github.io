@@ -33,7 +33,7 @@ Email address: renjie3 at msu.edu
 
 ### Conference and Journal papers
 
-*   <a href="https://arxiv.org/abs/2403.11052" target="_blank" style="font-weight:normal">Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention</a> <br> **Jie Ren**, Yaxin Li, Shenglai Zen, Han Xu, Lingjuan Lyu, Yue Xing, Jiliang Tang <br>  *arXiv:2403.11052*
+*   <a href="https://arxiv.org/abs/2403.11052" target="_blank" style="font-weight:normal">Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention</a> <br> **Jie Ren**, Yaxin Li, Shenglai Zeng, Han Xu, Lingjuan Lyu, Yue Xing, Jiliang Tang <br>  *arXiv:2403.11052*
 
 *   <a href="https://arxiv.org/abs/2311.08721" target="_blank" style="font-weight:normal">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</a> <br> **Jie Ren**, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin, Jiliang Tang <br>  *Findings of NAACL, 2024*
 
