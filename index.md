@@ -14,7 +14,7 @@ Email address: renjie3 at msu.edu
 <br> <br> 
 
 # News
-
+*   2024.05 Two papers accepted by ACL!
 *   2024.03 I will start my internship at Sony in March.
 *   2024.03 Our paper, A Robust Semantics-based Watermark for Large Language Model against Paraphrasing, is accepted by NAACL Findings.
 *   2024.02 The preprint of our survey, Copyright Protection in Generative AI: A Technical Perspective, is released. 
@@ -33,13 +33,15 @@ Email address: renjie3 at msu.edu
 
 ### Conference and Journal papers
 
+*   <a href="https://arxiv.org/abs/2310.06714" target="_blank" style="font-weight:normal">Exploring Memorization in Fine-tuned Language Models</a> <br> Shenglai Zeng, Yaxin Li, **Jie Ren**, Yiding Liu, Han Xu, Pengfei He, Yue Xing, Jiliang Tang, Dawei Yin <br> *ACL, 2024*
+
+*   <a href="https://arxiv.org/abs/2402.16893" target="_blank" style="font-weight:normal">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)</a> <br> Shenglai Zeng, Jiankun Zhang, Pengfei He, Yue Xing, Yiding Liu, Han Xu, **Jie Ren**, Shuaiqiang Wang, Dawei Yin, Yi Chang, Jiliang Tang <br>  *ACL Findings, 2024*
+
 *   <a href="https://arxiv.org/abs/2403.11052" target="_blank" style="font-weight:normal">Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention</a> <br> **Jie Ren**, Yaxin Li, Shenglai Zeng, Han Xu, Lingjuan Lyu, Yue Xing, Jiliang Tang <br>  *Preprint*
 
 *   <a href="https://arxiv.org/abs/2311.08721" target="_blank" style="font-weight:normal">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</a> <br> **Jie Ren**, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin, Jiliang Tang <br>  *Findings of NAACL, 2024*
 
 *   <a href="https://arxiv.org/abs/2402.02333" target="_blank" style="font-weight:normal">Copyright Protection in Generative AI: A Technical Perspective</a> <br> **Jie Ren**, Han Xu, Pengfei He, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi Wen, Jiayuan Ding, Hui Liu, Yi Chang, Jiliang Tang <br>  *Preprint*
-
-*   <a href="https://arxiv.org/abs/2402.16893" target="_blank" style="font-weight:normal">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)</a> <br> Shenglai Zeng, Jiankun Zhang, Pengfei He, Yue Xing, Yiding Liu, Han Xu, **Jie Ren**, Shuaiqiang Wang, Dawei Yin, Yi Chang, Jiliang Tang <br>  *Preprint*
 
 *   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> *International Conference on Learning Representations (ICLR), 2024*
 
@@ -48,8 +50,6 @@ Email address: renjie3 at msu.edu
 *   <a href="https://neurips.cc/virtual/2023/74895" target="_blank" style="font-weight:normal">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a> <br> **Jie Ren**\*, Yingqian Cui\*, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Yue Xing, Jiliang Tang <br> *NeurIPS 2023 Workshop on Diffusion Models*
 
 *   <a href="https://arxiv.org/abs/2310.02401" target="_blank" style="font-weight:normal">FT-Shield: A Watermark Against Unauthorized Fine-tuning in Text-to-Image Diffusion Models</a> <br> Yingqian Cui, **Jie Ren**, Yuping Lin, Han Xu, Pengfei He, Yue Xing, Wenqi Fan, Hui Liu, Jiliang Tang <br> *Preprint*
-
-*   <a href="https://arxiv.org/abs/2310.06714" target="_blank" style="font-weight:normal">Exploring Memorization in Fine-tuned Language Models</a> <br> Shenglai Zeng, Yaxin Li, **Jie Ren**, Yiding Liu, Han Xu, Pengfei He, Yue Xing, Jiliang Tang, Dawei Yin <br> *Preprint*
 
 *   <a href="https://arxiv.org/abs/2310.01307" target="_blank" style="font-weight:normal">On the Generalization of Training-based ChatGPT Detection Methods</a> <br> Han Xu, **Jie Ren**, Pengfei He, Shenglai Zeng, Yingqian Cui, Amy Liu, Hui Liu, Jiliang Tang <br> *Preprint*
 
