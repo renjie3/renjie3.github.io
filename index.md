@@ -28,20 +28,13 @@ Email address: renjie3 at msu.edu
 
 # Publications
 
-### Tutorials
-*   <a href="https://dl.acm.org/doi/abs/10.1145/3534678.3542608" target="_blank" style="font-weight:normal">Towards Adversarial Learning: From Evasion Attacks to Poisoning Attacks</a> <br> Wentao Wang, Han Xu, Yuxuan Wan, **Jie Ren**, and Jiliang Tang. <br> ACM International Conference on Knowledge Discovery & Data Mining (KDD), 2022.
-
 ### Conference and Journal papers
 
 *   <a href="https://arxiv.org/abs/2310.06714" target="_blank" style="font-weight:normal">Exploring Memorization in Fine-tuned Language Models</a> <br> Shenglai Zeng, Yaxin Li, **Jie Ren**, Yiding Liu, Han Xu, Pengfei He, Yue Xing, Jiliang Tang, Dawei Yin <br> *ACL, 2024*
 
 *   <a href="https://arxiv.org/abs/2402.16893" target="_blank" style="font-weight:normal">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)</a> <br> Shenglai Zeng, Jiankun Zhang, Pengfei He, Yue Xing, Yiding Liu, Han Xu, **Jie Ren**, Shuaiqiang Wang, Dawei Yin, Yi Chang, Jiliang Tang <br>  *ACL Findings, 2024*
 
-*   <a href="https://arxiv.org/abs/2403.11052" target="_blank" style="font-weight:normal">Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention</a> <br> **Jie Ren**, Yaxin Li, Shenglai Zeng, Han Xu, Lingjuan Lyu, Yue Xing, Jiliang Tang <br>  *Preprint*
-
 *   <a href="https://arxiv.org/abs/2311.08721" target="_blank" style="font-weight:normal">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</a> <br> **Jie Ren**, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin, Jiliang Tang <br>  *Findings of NAACL, 2024*
-
-*   <a href="https://arxiv.org/abs/2402.02333" target="_blank" style="font-weight:normal">Copyright Protection in Generative AI: A Technical Perspective</a> <br> **Jie Ren**, Han Xu, Pengfei He, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi Wen, Jiayuan Ding, Hui Liu, Yi Chang, Jiliang Tang <br>  *Preprint*
 
 *   <a href="https://arxiv.org/abs/2305.14851" target="_blank" style="font-weight:normal">Sharpness-Aware Data Poisoning Attack</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang <br> *International Conference on Learning Representations (ICLR), 2024*
 
@@ -49,20 +42,29 @@ Email address: renjie3 at msu.edu
 
 *   <a href="https://neurips.cc/virtual/2023/74895" target="_blank" style="font-weight:normal">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a> <br> **Jie Ren**\*, Yingqian Cui\*, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Yue Xing, Jiliang Tang <br> *NeurIPS 2023 Workshop on Diffusion Models*
 
-*   <a href="https://arxiv.org/abs/2310.02401" target="_blank" style="font-weight:normal">FT-Shield: A Watermark Against Unauthorized Fine-tuning in Text-to-Image Diffusion Models</a> <br> Yingqian Cui, **Jie Ren**, Yuping Lin, Han Xu, Pengfei He, Yue Xing, Wenqi Fan, Hui Liu, Jiliang Tang <br> *Preprint*
-
-*   <a href="https://arxiv.org/abs/2310.01307" target="_blank" style="font-weight:normal">On the Generalization of Training-based ChatGPT Detection Methods</a> <br> Han Xu, **Jie Ren**, Pengfei He, Shenglai Zeng, Yingqian Cui, Amy Liu, Hui Liu, Jiliang Tang <br> *Preprint*
-
-*   <a href="https://arxiv.org/abs/2310.05263" target="_blank" style="font-weight:normal">Confidence-driven Sampling for Backdoor Attacks</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Shenglai Zeng, Yue Xing, Jiliang Tang, Makoto Yamada, Mohammad Sabokrou <br> *Preprint*
-
 *   <a href="https://arxiv.org/abs/2210.09364" target="_blank" style="font-weight:normal">Probabilistic Categorical Adversarial Attack and Adversarial Training</a> <br> Penghei He, Han Xu, **Jie Ren**, Yuxuan Wan, Zitao Liu, Jiliang Tang. <br> *International Conference on Machine Learning (ICML), 2023*
 
 *   <a href="https://openreview.net/forum?id=-htnolWDLvP" target="_blank" style="font-weight:normal">Transferable Unlearnable Examples</a> <br> **Jie Ren**, Han Xu, Yuxuan Wan, Xingjun Ma, Lichao Sun, Jiliang Tang. <br> *International Conference on Learning Representations (ICLR), 2023*
 
-*   <a href="https://arxiv.org/abs/2206.00769" target="_blank" style="font-weight:normal">Defense Against Gradient Leakage Attacks via Learning to Obscure Data</a> <br> Yuxuan Wan, Han Xu, Xiaorui Liu, **Jie Ren**, Wenqi Fan, Jiliang Tang. <br> *Preprint*
-
 *   <a href="https://ieeexplore.ieee.org/document/9835353" target="_blank" style="font-weight:normal">Uniting Heterogeneity, Inductiveness, and Efficiency for Graph Representation Learning</a> <br> Tong Chen, Hongzhi Yin, **Jie Ren**, Zi Huang, Xiangliang Zhang, and Hao Wang. <br> *IEEE Transactions on Knowledge and Data Engineering ,2021* <br> (Work done as remote RA at UQ)
 <br> <br> 
+
+### Preprint
+
+*   <a href="https://arxiv.org/abs/2403.11052" target="_blank" style="font-weight:normal">Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention</a> <br> **Jie Ren**, Yaxin Li, Shenglai Zeng, Han Xu, Lingjuan Lyu, Yue Xing, Jiliang Tang
+
+*   <a href="https://arxiv.org/abs/2402.02333" target="_blank" style="font-weight:normal">Copyright Protection in Generative AI: A Technical Perspective</a> <br> **Jie Ren**, Han Xu, Pengfei He, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi Wen, Jiayuan Ding, Hui Liu, Yi Chang, Jiliang Tang
+
+*   <a href="https://arxiv.org/abs/2310.02401" target="_blank" style="font-weight:normal">FT-Shield: A Watermark Against Unauthorized Fine-tuning in Text-to-Image Diffusion Models</a> <br> Yingqian Cui, **Jie Ren**, Yuping Lin, Han Xu, Pengfei He, Yue Xing, Wenqi Fan, Hui Liu, Jiliang Tang
+
+*   <a href="https://arxiv.org/abs/2310.01307" target="_blank" style="font-weight:normal">On the Generalization of Training-based ChatGPT Detection Methods</a> <br> Han Xu, **Jie Ren**, Pengfei He, Shenglai Zeng, Yingqian Cui, Amy Liu, Hui Liu, Jiliang Tang
+
+*   <a href="https://arxiv.org/abs/2310.05263" target="_blank" style="font-weight:normal">Confidence-driven Sampling for Backdoor Attacks</a> <br> Pengfei He, Han Xu, **Jie Ren**, Yingqian Cui, Shenglai Zeng, Yue Xing, Jiliang Tang, Makoto Yamada, Mohammad Sabokrou
+
+*   <a href="https://arxiv.org/abs/2206.00769" target="_blank" style="font-weight:normal">Defense Against Gradient Leakage Attacks via Learning to Obscure Data</a> <br> Yuxuan Wan, Han Xu, Xiaorui Liu, **Jie Ren**, Wenqi Fan, Jiliang Tang.
+
+### Tutorials
+*   <a href="https://dl.acm.org/doi/abs/10.1145/3534678.3542608" target="_blank" style="font-weight:normal">Towards Adversarial Learning: From Evasion Attacks to Poisoning Attacks</a> <br> Wentao Wang, Han Xu, Yuxuan Wan, **Jie Ren**, and Jiliang Tang. <br> ACM International Conference on Knowledge Discovery & Data Mining (KDD), 2022.
 
 <!-- # Links
 
