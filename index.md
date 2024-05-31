@@ -20,12 +20,6 @@ Email address: renjie3 at msu.edu
 *   2024.02 The preprint of our survey, Copyright Protection in Generative AI: A Technical Perspective, is released. 
 <br> <br> 
 
-# Experience
-
-*   Big Search, Baidu Inc. 12.2020 - 08.2021 <br> Supervised by <a href="http://www.yindawei.com/" target="_blank" style="font-weight:normal">Dr. Dawei Yin </a>and <a href="http://wangshuaiqiang.net/" target="_blank" style="font-weight:normal">Dr. Shuaiqiang Wang </a>.
-*   Kuaishou Inc. 10.2019 - 05.2020
-<br> <br> 
-
 # Publications
 
 ### Preprint
@@ -64,6 +58,13 @@ Email address: renjie3 at msu.edu
 
 ### Tutorials
 *   <a href="https://dl.acm.org/doi/abs/10.1145/3534678.3542608" target="_blank" style="font-weight:normal">Towards Adversarial Learning: From Evasion Attacks to Poisoning Attacks</a> <br> Wentao Wang, Han Xu, Yuxuan Wan, **Jie Ren**, and Jiliang Tang. <br> ACM International Conference on Knowledge Discovery & Data Mining (KDD), 2022.
+<br> <br> 
+
+# Experience
+
+*   Sony AI. 03.2024 - Present <br> Supervised by <a href="https://sites.google.com/view/lingjuan-lyu/home" target="_blank" style="font-weight:normal">Dr. Lingjuan Lyu </a>and <a href="https://vsehwag.github.io/" target="_blank" style="font-weight:normal">Dr. Vikash Sehwag </a>.
+*   Big Search, Baidu Inc. 12.2020 - 08.2021 <br> Supervised by <a href="http://www.yindawei.com/" target="_blank" style="font-weight:normal">Dr. Dawei Yin </a>and <a href="http://wangshuaiqiang.net/" target="_blank" style="font-weight:normal">Dr. Shuaiqiang Wang </a>.
+*   Kuaishou Inc. 10.2019 - 05.2020
 <br> <br> 
 
 <!-- # Links
