@@ -3,7 +3,7 @@ layout: default
 ---
 <style>
   body {
-    font-size: 16px; /* 设置全局字体大小 */
+    font-size: 13px; /* 设置全局字体大小 */
   }
 </style>
 
