@@ -24,7 +24,7 @@ Email address: renjie3 at msu.edu
 
 ### Preprint
 
-*   <a href="" target="_blank" style="font-weight:normal">EnTruth: Enhancing the Traceability of Unauthorized Dataset Usage in Text-to-image Diffusion Models with Minimal and Robust Alterations</a> <br> **Jie Ren**, Yingqian Cui, Chen Chen, Vikash Sehwag, Yue Xing, Jiliang Tang, Lingjuan Lyu
+*   <a href="" target="_blank" style="font-weight:normal;font-size:12px;">EnTruth: Enhancing the Traceability of Unauthorized Dataset Usage in Text-to-image Diffusion Models with Minimal and Robust Alterations</a> <br> **Jie Ren**, Yingqian Cui, Chen Chen, Vikash Sehwag, Yue Xing, Jiliang Tang, Lingjuan Lyu
 
 *   <a href="" target="_blank" style="font-weight:normal">Six-CD: Benchmarking Concept Removals for Benign Text-to-image Diffusion Models</a> <br> **Jie Ren**, Kangrui Chen, Yingqian Cui, Shenglai Zeng, Hui Liu, Yue Xing, Jiliang Tang, Lingjuan Lyu
 
