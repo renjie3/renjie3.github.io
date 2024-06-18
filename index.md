@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-<style>
-  body {
-    font-size: 13px; /* 设置全局字体大小 */
-  }
-</style>
 
 # About Me
 
