@@ -24,11 +24,11 @@ Email address: renjie3 at msu.edu
 
 ### Preprint
 
-*   <a href="" target="_blank" style="font-weight:normal;font-size:15px;">EnTruth: Enhancing the Traceability of Unauthorized Dataset Usage in Text-to-image Diffusion Models with Minimal and Robust Alterations</a> <br> **Jie Ren**, Yingqian Cui, Chen Chen, Vikash Sehwag, Yue Xing, Jiliang Tang, Lingjuan Lyu
+*   <a href="" target="_blank" style="font-weight:normal">EnTruth: Enhancing the Traceability of Unauthorized Dataset Usage in Text-to-image Diffusion Models with Minimal and Robust Alterations</a> <br> **Jie Ren**, Yingqian Cui, Chen Chen, Vikash Sehwag, Yue Xing, Jiliang Tang, Lingjuan Lyu
 
-*   <a href="" target="_blank" style="font-weight:normal;font-size:16px;">Six-CD: Benchmarking Concept Removals for Benign Text-to-image Diffusion Models</a> <br> **Jie Ren**, Kangrui Chen, Yingqian Cui, Shenglai Zeng, Hui Liu, Yue Xing, Jiliang Tang, Lingjuan Lyu
+*   <a href="" target="_blank" style="font-weight:normal">Six-CD: Benchmarking Concept Removals for Benign Text-to-image Diffusion Models</a> <br> **Jie Ren**, Kangrui Chen, Yingqian Cui, Shenglai Zeng, Hui Liu, Yue Xing, Jiliang Tang, Lingjuan Lyu
 
-*   <a href="https://arxiv.org/abs/2403.11052" target="_blank" style="font-weight:normal;font-size:17px;">Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention</a> <br> **Jie Ren**, Yaxin Li, Shenglai Zeng, Han Xu, Lingjuan Lyu, Yue Xing, Jiliang Tang
+*   <a href="https://arxiv.org/abs/2403.11052" target="_blank" style="font-weight:normal">Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention</a> <br> **Jie Ren**, Yaxin Li, Shenglai Zeng, Han Xu, Lingjuan Lyu, Yue Xing, Jiliang Tang
 
 *   <a href="https://arxiv.org/abs/2402.02333" target="_blank" style="font-weight:normal">Copyright Protection in Generative AI: A Technical Perspective</a> <br> **Jie Ren**, Han Xu, Pengfei He, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi Wen, Jiayuan Ding, Hui Liu, Yi Chang, Jiliang Tang
 
