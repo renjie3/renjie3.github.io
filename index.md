@@ -67,9 +67,9 @@ Email address: renjie3 at msu.edu
 
 *   11/2023. Data Protection in Deep Learning, Institute of Computing Technology, Chinese Academy of Sciences.
 
-*   10/2023. Copyright Protection in Deep Generative Model, Shandong University.
+*   10/2023. Copyright Protection in Deep Generative Model, Qilu Youth Forum at Shandong University.
 
-*   10/2023. Copyright Protection in Deep Generative Model, AI Time Inc.
+*   10/2023. Copyright Protection in Deep Generative Model. <a href="https://www.aitime.cn/" target="_blank" style="font-weight:normal">AI Time (Tsinghua University)</a>
 
 *   07/2023. DiffusionShield: A Watermark for Copyright Protection against GDMs, Shandong University.
 
