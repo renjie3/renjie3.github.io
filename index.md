@@ -57,11 +57,23 @@ Email address: renjie3 at msu.edu
 
 *   <a href="https://openreview.net/forum?id=-htnolWDLvP" target="_blank" style="font-weight:normal">Transferable Unlearnable Examples</a> <br> **Jie Ren**, Han Xu, Yuxuan Wan, Xingjun Ma, Lichao Sun, Jiliang Tang. <br> *International Conference on Learning Representations (ICLR), 2023*
 
-*   <a href="https://ieeexplore.ieee.org/document/9835353" target="_blank" style="font-weight:normal">Uniting Heterogeneity, Inductiveness, and Efficiency for Graph Representation Learning</a> <br> Tong Chen, Hongzhi Yin, **Jie Ren**, Zi Huang, Xiangliang Zhang, and Hao Wang. <br> *IEEE Transactions on Knowledge and Data Engineering ,2021* <br> (Work done as remote RA at UQ) 
+*   <a href="https://ieeexplore.ieee.org/document/9835353" target="_blank" style="font-weight:normal">Uniting Heterogeneity, Inductiveness, and Efficiency for Graph Representation Learning</a> <br> Tong Chen, Hongzhi Yin, **Jie Ren**, Zi Huang, Xiangliang Zhang, and Hao Wang. <br> *IEEE Transactions on Knowledge and Data Engineering ,2021* <br> (Work done as remote RA at the University of Queensland) 
 
 ### Tutorials
 *   <a href="https://dl.acm.org/doi/abs/10.1145/3534678.3542608" target="_blank" style="font-weight:normal">Towards Adversarial Learning: From Evasion Attacks to Poisoning Attacks</a> <br> Wentao Wang, Han Xu, Yuxuan Wan, **Jie Ren**, and Jiliang Tang. <br> ACM International Conference on Knowledge Discovery & Data Mining (KDD), 2022.
 <br> <br> 
+
+# Invited Talk
+
+*   11/2023. Data Protection in Deep Learning, Institute of Computing Technology, Chinese Academy of Sciences.
+
+*   10/2023. Copyright Protection in Deep Generative Model, Shandong University.
+
+*   10/2023. Copyright Protection in Deep Generative Model, AI Time Inc.
+
+*   07/2023. DiffusionShield: A Watermark for Copyright Protection against GDMs, Shandong University.
+
+*   03/2023. Transferable Unlearnable Examples, Fudan University.
 
 # Experience
 
