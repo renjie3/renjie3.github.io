@@ -83,10 +83,7 @@ Email address: renjie3 at msu.edu
 *   Kuaishou Inc. 10.2019 - 05.2020
 <br> <br> 
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=969696&w=a&t=n&d=cC6MJrH-YPtX2xMvNhowmgG9UWa5_Lacnr5cFa95_8Q&co=ffffff&cmo=e83410&cmn=179e17&ct=0a0707'></script>
-<script>
-    document.getElementById('clustrmaps').style.display = 'none';
-</script>
+<a href='https://clustrmaps.com/site/1c09l'  title='Visit tracker' style="visibility: hidden"><img src='//clustrmaps.com/map_v2.png?cl=bababa&w=a&t=n&d=cC6MJrH-YPtX2xMvNhowmgG9UWa5_Lacnr5cFa95_8Q&co=ffffff&ct=808080'/></a>
 
 <!-- # Links
 
