@@ -13,6 +13,7 @@ Email address: renjie3 at msu.edu
 <br> <br> 
 
 # News
+*   2024.05 One paper accepted by ECCV!
 *   2024.05 Two papers accepted by ACL!
 *   2024.03 I will start my internship at Sony in March.
 *   2024.03 Our paper, A Robust Semantics-based Watermark for Large Language Model against Paraphrasing, is accepted by NAACL Findings.
@@ -27,8 +28,6 @@ Email address: renjie3 at msu.edu
 
 *   <a href="" target="_blank" style="font-weight:normal">Six-CD: Benchmarking Concept Removals for Benign Text-to-image Diffusion Models</a> <br> **Jie Ren**, Kangrui Chen, Yingqian Cui, Shenglai Zeng, Hui Liu, Yue Xing, Jiliang Tang, Lingjuan Lyu
 
-*   <a href="https://arxiv.org/abs/2403.11052" target="_blank" style="font-weight:normal">Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention</a> <br> **Jie Ren**, Yaxin Li, Shenglai Zeng, Han Xu, Lingjuan Lyu, Yue Xing, Jiliang Tang
-
 *   <a href="https://arxiv.org/abs/2402.02333" target="_blank" style="font-weight:normal">Copyright Protection in Generative AI: A Technical Perspective</a> <br> **Jie Ren**, Han Xu, Pengfei He, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi Wen, Jiayuan Ding, Hui Liu, Yi Chang, Jiliang Tang
 
 *   <a href="https://arxiv.org/abs/2310.02401" target="_blank" style="font-weight:normal">FT-Shield: A Watermark Against Unauthorized Fine-tuning in Text-to-Image Diffusion Models</a> <br> Yingqian Cui, **Jie Ren**, Yuping Lin, Han Xu, Pengfei He, Yue Xing, Wenqi Fan, Hui Liu, Jiliang Tang
@@ -40,6 +39,8 @@ Email address: renjie3 at msu.edu
 *   <a href="https://arxiv.org/abs/2206.00769" target="_blank" style="font-weight:normal">Defense Against Gradient Leakage Attacks via Learning to Obscure Data</a> <br> Yuxuan Wan, Han Xu, Xiaorui Liu, **Jie Ren**, Wenqi Fan, Jiliang Tang -->
 
 ### Conference and Journal papers
+
+*   <a href="https://arxiv.org/abs/2403.11052" target="_blank" style="font-weight:normal">Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention</a> <br> **Jie Ren**, Yaxin Li, Shenglai Zeng, Han Xu, Lingjuan Lyu, Yue Xing, Jiliang Tang <br> *ECCV, 2024*
 
 *   <a href="https://arxiv.org/abs/2310.06714" target="_blank" style="font-weight:normal">Exploring Memorization in Fine-tuned Language Models</a> <br> Shenglai Zeng, Yaxin Li, **Jie Ren**, Yiding Liu, Han Xu, Pengfei He, Yue Xing, Jiliang Tang, Dawei Yin <br> *ACL, 2024*
 
