@@ -92,10 +92,31 @@
                                     <p class="news">
                                         <strong>[Mar 2024]</strong>&nbsp;&nbsp; I will start my internship at Sony AI in March.
                                     </p>
-                                    <p class="news">
-                                        <strong>[Mar 2024]</strong>&nbsp;&nbsp; One paper is accepted by <em>NAACL 2024 Findings</em>.
-                                    </p>
-                                    <br>
+
+                                    <!-- Hidden part -->
+                                    <div id="more-news" style="display:none">
+                                        <p class="news"><strong>[Mar 2024]</strong>&nbsp;&nbsp; One paper is accepted by <em>NAACL 2024 Findings</em>.</p>
+                                        <p class="news"><strong>[Feb 2024]</strong>&nbsp;&nbsp; The preprint of our survey, Copyright Protection in Generative AI: A Technical Perspective, is released.</p>
+                                    </div>
+                            
+                                    <!-- Toggle button -->
+                                    <div style="margin-top:15px;">
+                                        <a href="javascript:void(0);" onclick="toggleNews()" id="toggle-link">Show more</a>
+                                    </div>
+                            
+                                    <script>
+                                        function toggleNews() {
+                                        var moreNews = document.getElementById("more-news");
+                                        var link = document.getElementById("toggle-link");
+                                        if (moreNews.style.display === "none") {
+                                            moreNews.style.display = "block";
+                                            link.innerText = "Show less";
+                                        } else {
+                                            moreNews.style.display = "none";
+                                            link.innerText = "Show more";
+                                        }
+                                        }
+                                    </script>
                                     
                                 </td>
                             </tr>
