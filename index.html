@@ -10,7 +10,17 @@
 
     <link rel="stylesheet" type="text/css" href="./files/stylesheet.css">
     <link rel="icon" href="./images/mit_resize.png" type="image/vnd.microsoft.icon">
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script></head>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+  // Visit with ?notrack=1 once per browser to stop counting your own visits (?notrack=0 undoes it)
+  window.NOTRACK = false;
+  try {
+    var nt = new URLSearchParams(location.search).get('notrack');
+    if (nt === '1') localStorage.setItem('notrack', '1');
+    if (nt === '0') localStorage.removeItem('notrack');
+    window.NOTRACK = localStorage.getItem('notrack') === '1';
+  } catch (e) {}
+</script></head>
 
 <style>
     .news {
@@ -812,7 +822,14 @@
                                     <br>
                                     <!-- <a href='https://clustrmaps.com/site/1c09l'  title='Visit tracker' style="visibility: hidden"><img src='//clustrmaps.com/map_v2.png?cl=b7b7b7&w=70&t=n&d=cC6MJrH-YPtX2xMvNhowmgG9UWa5_Lacnr5cFa95_8Q&co=ffffff&ct=808080'/></a> -->
                                     <!-- <a href='https://clustrmaps.com/site/1c977'  title='Visit tracker' style="visibility: hidden"><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=dxL45N3M7E2ggkYK680LCTaiYM0v8xmgKClZsobfuuU'/></a> -->
-                                    <a href='https://mapmyvisitors.com/web/1c8nz'  title='Visit tracker' style="visibility: hidden"><img src='https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=HqEdTPgIpSGPHRWMibgrprqaCVUV8XvDPElvEfCz3Sw'/></a>
+                                    <a id="mapmyvisitors" href='https://mapmyvisitors.com/web/1c8nz'  title='Visit tracker' style="visibility: hidden"></a>
+                                    <script>
+                                      if (!window.NOTRACK) {
+                                        var img = document.createElement('img');
+                                        img.src = 'https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=HqEdTPgIpSGPHRWMibgrprqaCVUV8XvDPElvEfCz3Sw';
+                                        document.getElementById('mapmyvisitors').appendChild(img);
+                                      }
+                                    </script>
                                 </td>
                             </tr>
                         </tbody>
@@ -846,9 +863,23 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
+  if (window.NOTRACK) window['ga-disable-G-10GQW6GP0M'] = true;
   gtag('config', 'G-10GQW6GP0M');
 </script>
-<script async data-id="101507084" src="//static.getclicky.com/js"></script>
+<!-- Clicky + visitor log (Cloudflare Worker), both skipped for ?notrack=1 browsers -->
+<script>
+  if (!window.NOTRACK) {
+    var clicky = document.createElement('script');
+    clicky.async = true;
+    clicky.setAttribute('data-id', '101507084');
+    clicky.src = '//static.getclicky.com/js';
+    document.body.appendChild(clicky);
+    try {
+      navigator.sendBeacon('https://visitor-log.visitor-log.workers.dev/hit',
+        JSON.stringify({ p: location.pathname, r: document.referrer }));
+    } catch (e) {}
+  }
+</script>
 
 <div id="forest-ext-shadow-host"><template shadowrootmode="open"><head></head><div id="root"></div></template></div><div class="jvectormap-tip"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
       div.grammarly-desktop-integration {
