@@ -822,14 +822,6 @@
                                     <br>
                                     <!-- <a href='https://clustrmaps.com/site/1c09l'  title='Visit tracker' style="visibility: hidden"><img src='//clustrmaps.com/map_v2.png?cl=b7b7b7&w=70&t=n&d=cC6MJrH-YPtX2xMvNhowmgG9UWa5_Lacnr5cFa95_8Q&co=ffffff&ct=808080'/></a> -->
                                     <!-- <a href='https://clustrmaps.com/site/1c977'  title='Visit tracker' style="visibility: hidden"><img src='//clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=dxL45N3M7E2ggkYK680LCTaiYM0v8xmgKClZsobfuuU'/></a> -->
-                                    <a id="mapmyvisitors" href='https://mapmyvisitors.com/web/1c8nz'  title='Visit tracker' style="visibility: hidden"></a>
-                                    <script>
-                                      if (!window.NOTRACK) {
-                                        var img = document.createElement('img');
-                                        img.src = 'https://mapmyvisitors.com/map.png?cl=ffffff&w=a&t=n&d=HqEdTPgIpSGPHRWMibgrprqaCVUV8XvDPElvEfCz3Sw';
-                                        document.getElementById('mapmyvisitors').appendChild(img);
-                                      }
-                                    </script>
                                 </td>
                             </tr>
                         </tbody>
@@ -866,19 +858,33 @@
   if (window.NOTRACK) window['ga-disable-G-10GQW6GP0M'] = true;
   gtag('config', 'G-10GQW6GP0M');
 </script>
-<!-- Clicky + visitor log (Cloudflare Worker), both skipped for ?notrack=1 browsers -->
+<!-- Visitor log (Cloudflare Worker): page views and link clicks, skipped for ?notrack=1 browsers -->
 <script>
-  if (!window.NOTRACK) {
-    var clicky = document.createElement('script');
-    clicky.async = true;
-    clicky.setAttribute('data-id', '101507084');
-    clicky.src = '//static.getclicky.com/js';
-    document.body.appendChild(clicky);
-    try {
-      navigator.sendBeacon('https://visitor-log.visitor-log.workers.dev/hit',
-        JSON.stringify({ p: location.pathname, r: document.referrer }));
-    } catch (e) {}
-  }
+  (function () {
+    if (window.NOTRACK) return;
+    var HIT = 'https://visitor-log.visitor-log.workers.dev/hit';
+    var rand = function () { return (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : String(Math.random()).slice(2) + Date.now(); };
+    var send = function (data) { try { navigator.sendBeacon(HIT, JSON.stringify(data)); } catch (e) {} };
+    var vid = rand();  // this page view
+    var uid;           // this browser, to recognise returning visitors
+    try { uid = localStorage.getItem('vl_uid') || rand(); localStorage.setItem('vl_uid', uid); } catch (e) { uid = null; }
+
+    send({ p: location.pathname, r: document.referrer, v: vid, u: uid, w: navigator.webdriver ? 1 : 0 });
+
+    var onClick = function (e) {
+      var a = e.target.closest && e.target.closest('a[href]');
+      if (!a) return;
+      // Label a paper's links with its title, e.g. "Machine Unlearning for LLMs [arXiv]"
+      var text = a.textContent.replace(/\s+/g, ' ').trim();
+      var block = a.closest('p, li, td');
+      var title = block && block.querySelector('papertitle');
+      title = title ? title.textContent.replace(/\s+/g, ' ').trim() : '';
+      var label = title && title !== text ? title + ' [' + text + ']' : (text || a.href);
+      send({ t: 'c', v: vid, h: a.href, l: label });
+    };
+    document.addEventListener('click', onClick);
+    document.addEventListener('auxclick', onClick);  // middle-click / open in new tab
+  })();
 </script>
 
 <div id="forest-ext-shadow-host"><template shadowrootmode="open"><head></head><div id="root"></div></template></div><div class="jvectormap-tip"></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
