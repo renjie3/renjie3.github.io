@@ -104,15 +104,17 @@ main{max-width:var(--max);margin:0 auto;padding:0 1.5rem 3rem}
   display:grid;grid-template-columns:minmax(0,1fr) 210px;gap:3rem;align-items:center;
   padding:2.8rem 0 1rem
 }
-.hero-name{margin:0 0 1rem;font-size:2.4rem;line-height:1.15;font-weight:700;color:var(--ink);letter-spacing:-.01em}
+.hero-name{margin:0 0 .75rem;font-size:2.4rem;line-height:1.15;font-weight:700;color:var(--ink);letter-spacing:-.01em}
 .hero-role{margin:0 0 1.1rem!important;color:var(--muted);font-size:1.02rem}
 .hero-copy p{margin:0 0 .9rem}
 .portrait{
   width:210px;height:210px;object-fit:cover;object-position:50% 0%;display:block;
   border-radius:50%;box-shadow:0 0 0 6px var(--bg),0 0 0 7px var(--line)
 }
-.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 1.2rem}
-.tag{font-size:.8rem;font-weight:700;padding:.2rem .65rem;border-radius:999px;background:var(--soft);border:1px solid var(--line);color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:.45rem;margin:0 0 1.35rem}
+.tag{display:inline-flex;align-items:center;gap:.45rem;padding:.28rem .8rem;border-radius:999px;
+  font-size:.82rem;font-weight:700;letter-spacing:.01em;line-height:1.3;
+  color:var(--body);background:var(--soft);border:1px solid var(--line)}
 .quick-links{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:3rem}
 .quick-links a,.quick-links span{
   font-size:.9rem;font-weight:700;padding:.35rem .85rem;border-radius:6px;
@@ -147,15 +149,13 @@ main{max-width:var(--max);margin:0 auto;padding:0 1.5rem 3rem}
 .news-hint{margin:.5rem 0 0;color:var(--faint);font-size:.82rem}
 
 /* ---------- research themes ---------- */
-.themes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:0 0 1.5rem}
-.theme{
-  position:relative;border:1px solid var(--line);border-radius:10px;padding:12px 20px 16px;background:var(--card);
-  border-top:3px solid var(--c)
-}
+.themes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:.4rem 0 1.6rem}
+.theme{display:flex;flex-direction:column;padding:.85rem 1.1rem .9rem 1.05rem;background:var(--card);
+  border:1px solid var(--line);border-left:3px solid var(--c);border-radius:4px}
 .theme.dp{--c:var(--dp)} .theme.un{--c:var(--un)} .theme.ra{--c:var(--ra)}
-.theme-num{font-size:.76rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--c);margin:.2rem 0 .35rem}
-.theme-title{font-weight:700;font-size:1.04rem;color:var(--ink);margin-bottom:.5rem;line-height:1.35}
-.theme-text{color:var(--muted);font-size:.92rem;line-height:1.6}
+.theme-num{font-size:.86rem;font-style:italic;color:var(--c);margin:0 0 .15rem}
+.theme-title{font-weight:700;font-size:1.04rem;color:var(--ink);line-height:1.35;margin-bottom:.35rem}
+.theme-text{color:var(--body);font-size:.93rem;line-height:1.55;flex:1}
 
 /* ---------- filters ---------- */
 .toolbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.8rem 1.5rem;
@@ -232,13 +232,10 @@ nav a.active{color:var(--ink);background:var(--soft)}
 .news-list li b{color:var(--ink)}
 .award-text{color:var(--award);font-weight:700}
 
-.theme{display:flex;flex-direction:column;transition:box-shadow .2s ease,transform .2s ease}
-.theme:hover{box-shadow:0 8px 24px var(--shadow);transform:translateY(-2px)}
-.theme-text{flex:1}
-.theme-link{align-self:flex-start;margin-top:.8rem;padding:0;border:0;background:none;cursor:pointer;
-  color:var(--c);font-size:.86rem;font-weight:700}
-.theme-link:hover{text-decoration:underline;text-underline-offset:2px}
-.theme-link .count{opacity:.75}
+.theme-link{align-self:flex-start;margin-top:.65rem;padding:0;border:0;background:none;cursor:pointer;
+  color:var(--accent);font-size:.88rem;font-weight:700}
+.theme-link:hover{color:var(--accent-dark);text-decoration:underline;text-underline-offset:2px}
+.theme-link .count{font-weight:400;color:var(--muted)}
 
 .filter .count{font-weight:400;font-size:.78rem;opacity:.65}
 .filter .count:not(:empty)::before{content:""}
@@ -249,6 +246,10 @@ nav a.active{color:var(--ink);background:var(--soft)}
 .publication.first .pub-venue .venue{background:var(--chip-first)}
 .pub-venue .award{display:inline-block;margin:0;padding:.05rem .5rem;border-radius:4px;background:var(--award-bg);
   color:var(--award);font-size:.8rem;font-weight:700}
+.pub-link{display:inline-flex;align-items:center;padding:.05rem .55rem;border-radius:4px;font-size:.8rem;font-weight:700;
+  color:var(--accent);background:var(--card);border:1px solid color-mix(in srgb,var(--accent) 40%,var(--line));
+  transition:background .15s ease,color .15s ease,border-color .15s ease}
+.pub-link:hover,.pub-link:focus{background:var(--accent);border-color:var(--accent);color:#fff;text-decoration:none}
 .publication{animation:none}
 .publication.reveal{animation:pubin .25s ease}
 @keyframes pubin{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
@@ -282,7 +283,7 @@ html.dark .theme-toggle .i-moon{display:none}
 .to-top svg{width:18px;height:18px}
 
 @media(max-width:860px){
-  .themes{grid-template-columns:1fr}
+  .themes{grid-template-columns:1fr;gap:12px}
 }
 @media(max-width:700px){
   /* header: no dark mode on phones; links stay on one line or collapse into the menu */
@@ -295,13 +296,14 @@ html.dark .theme-toggle .i-moon{display:none}
   .content-section{padding-top:1.9rem}
 
   /* hero: photo and name on one row, vertically centred */
-  .hero{grid-template-columns:auto minmax(0,1fr);column-gap:1rem;row-gap:0;align-items:center;padding:1.6rem 0 .3rem}
+  .hero{grid-template-columns:minmax(0,1fr) auto auto minmax(0,1fr);column-gap:1rem;row-gap:0;align-items:center;padding:1.6rem 0 .3rem}
   .hero-copy{display:contents}
-  .hero-media{grid-column:1;grid-row:1}
+  .hero-media{grid-column:2;grid-row:1}
   .portrait{width:88px;height:88px;box-shadow:0 0 0 4px var(--bg),0 0 0 5px var(--line)}
-  .hero-name{grid-column:2;grid-row:1;margin:0;font-size:2rem}
+  .hero-name{grid-column:3;grid-row:1;margin:0;font-size:2rem}
   .hero-copy > p{grid-column:1 / -1}
-  .hero-copy > p:first-of-type{margin-top:1.3rem}
+  .hero-copy > .tags{grid-column:1 / -1;justify-content:center;margin:1.1rem 0 1rem;gap:.4rem}
+  .tag{font-size:.78rem;padding:.24rem .7rem}
 
   /* links: 2 x 2 grid */
   .quick-links{grid-column:1 / -1;display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-top:1.6rem}
@@ -313,16 +315,11 @@ html.dark .theme-toggle .i-moon{display:none}
   .news-date{position:static;display:inline;margin-right:.45rem;font-size:.82rem}
 
   /* research cards: compact, description opens on tap */
-  .themes{gap:10px;margin-bottom:1.2rem}
-  .theme{padding:10px 14px 12px;cursor:pointer}
-  .theme:hover{transform:none;box-shadow:none}
-  .theme-num{font-size:.7rem;margin:.1rem 0 .2rem}
-  .theme-title{font-size:.98rem;margin-bottom:0;display:flex;justify-content:space-between;gap:.8rem}
-  .theme-title::after{content:"";flex:none;width:7px;height:7px;margin-top:.45rem;border-right:2px solid var(--faint);border-bottom:2px solid var(--faint);transform:rotate(45deg);transition:transform .2s ease}
-  .theme.open .theme-title::after{transform:rotate(-135deg);margin-top:.7rem}
-  .theme-text{display:none;font-size:.88rem;margin-top:.4rem}
-  .theme.open .theme-text{display:block}
-  .theme-link{margin-top:.45rem;font-size:.82rem}
+  .themes{gap:10px;margin-bottom:1.3rem}
+  .theme{padding:.75rem .9rem .8rem .9rem}
+  .theme-title{font-size:.98rem}
+  .theme-text{font-size:.9rem}
+  .theme-link{margin-top:.45rem;font-size:.84rem}
 
   /* filters: one row, swipe sideways */
   .toolbar{display:block;padding:.7rem 0}
@@ -336,7 +333,7 @@ html.dark .theme-toggle .i-moon{display:none}
   .publication{padding:.45rem .6rem}
   .pub-title{font-size:.95rem}
   .pub-authors{font-size:.85rem;line-height:1.5}
-  .pub-venue .venue,.pub-venue .award{font-size:.74rem}
+  .pub-venue .venue,.pub-venue .award,.pub-link{font-size:.74rem}
 
   .year-list li{padding-left:0}
   .year-list .yr{position:static;display:block}
@@ -362,6 +359,7 @@ html.dark .theme-toggle .i-moon{display:none}
 <section class="hero" id="about">
   <div class="hero-copy">
     <h2 class="hero-name">Jie Ren</h2>
+    <div class="tags"><span class="tag dp">Trustworthy AI</span><span class="tag un">Interpretable AI</span><span class="tag ra">Reliable Reasoning &amp; Agents</span></div>
     <p>I am a <b>Postdoctoral Associate at MIT CSAIL</b>, working with <a href="https://www.neil-t.com/" target="_blank">Neil Thompson</a> and <a href="https://futuretech.mit.edu/team/jonathan-rosenfeld" target="_blank">Jonathan Rosenfeld</a>. I received my Ph.D. in Computer Science from Michigan State University, advised by <a href="http://www.cse.msu.edu/~tangjili/" target="_blank">Jiliang Tang</a>, and my B.E. from Tsinghua University.</p>
     <p>My research aims to advance <b>trustworthy AI</b> through a deeper <b>understanding</b> of the behaviors, underlying mechanisms, and limitations of AI, extending from <b>individual models</b> to <b>reasoning and agentic systems</b>.</p>
     <p>I was selected as an <b>ML and Systems Rising Star</b> (MLCommons) and a <b>Rising Star in AI</b> (KAUST), and I serve as an Area Chair for ICLR, ICML, and ARR.</p>
@@ -423,20 +421,20 @@ html.dark .theme-toggle .i-moon{display:none}
     <div class="theme dp">
       <div class="theme-num">My Trustworthy AI Focus</div>
       <div class="theme-title">Data Protection in AI</div>
-      <div class="theme-text">Empowering data owners to prevent and detect unauthorized data use (unlearnable examples, watermarks, membership inference), and enabling model developers to avoid memorization and undesirable generation (machine unlearning, concept removal).</div>
-      <button class="theme-link" data-filter="dp">View papers <span class="count"></span> →</button>
+      <div class="theme-text">Helping data owners protect their data, and model developers use data responsibly.</div>
+      <button class="theme-link" data-filter="dp">Papers <span class="count"></span> →</button>
     </div>
     <div class="theme un">
       <div class="theme-num">Research Philosophy</div>
       <div class="theme-title">Understanding &amp; Controlling AI Behaviors</div>
-      <div class="theme-text">Interpretability, theoretical, and empirical analyses that explain why behaviors such as memorization, superficial unlearning, and RAG failures emerge, and using these insights to guide targeted interventions.</div>
-      <button class="theme-link" data-filter="un">View papers <span class="count"></span> →</button>
+      <div class="theme-text">Uncovering the mechanisms behind AI to guide targeted interventions.</div>
+      <button class="theme-link" data-filter="un">Papers <span class="count"></span> →</button>
     </div>
     <div class="theme ra">
       <div class="theme-num">Recent Expansion</div>
       <div class="theme-title">Reliable Reasoning &amp; Agentic Systems</div>
-      <div class="theme-text">Improving the reliability and efficiency of LLM reasoning (test-time scaling, latent reasoning) and agentic systems (long-term memory, multi-agent collaboration).</div>
-      <button class="theme-link" data-filter="ra">View papers <span class="count"></span> →</button>
+      <div class="theme-text">Making LLM reasoning and agentic systems more reliable and efficient.</div>
+      <button class="theme-link" data-filter="ra">Papers <span class="count"></span> →</button>
     </div>
   </div>
 
@@ -464,16 +462,19 @@ html.dark .theme-toggle .i-moon{display:none}
       <p class="pub-authors"><b>Jie Ren</b>*, Jinhua Si*, Yingqian Cui, Shuaiqiang Wang, Lingyong Yan, Dawei Yin, Kai Guo, Yue Xing, Hui Liu</p>
     </article>
     <article class="publication" data-tags="ra">
-      <p class="pub-title"><a href="https://openreview.net/forum?id=W2D7Oatb4n" target="_blank">Beyond Ranking: Making Long-term Multi-modal Memory Addressable</a></p>
+      <p class="pub-title">Beyond Ranking: Making Long-term Multi-modal Memory Addressable</p>
       <p class="pub-authors">Kai Guo, Xinnan Dai, Shenglai Zeng, Zhikai Chen, Xianxuan Long, Jiayuan Ding, <b>Jie Ren</b>, Haoyu Han, Hui Liu</p>
+      <p class="pub-venue"><a class="pub-link" href="https://openreview.net/forum?id=W2D7Oatb4n" target="_blank">Paper</a></p>
     </article>
     <article class="publication first" data-tags="dp">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2506.09227" target="_blank">Machine Unlearning for Large Language Models (Survey)</a></p>
+      <p class="pub-title">Machine Unlearning for Large Language Models (Survey)</p>
       <p class="pub-authors"><b>Jie Ren</b>, Yue Xing, Yingqian Cui, Charu C. Aggarwal, Hui Liu</p>
+      <p class="pub-venue"><a class="pub-link" href="https://arxiv.org/abs/2506.09227" target="_blank">Paper</a></p>
     </article>
     <article class="publication first" data-tags="dp">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2402.02333" target="_blank">Copyright Protection in Generative AI: A Technical Perspective (Survey)</a></p>
+      <p class="pub-title">Copyright Protection in Generative AI: A Technical Perspective (Survey)</p>
       <p class="pub-authors"><b>Jie Ren</b>, Han Xu, Pengfei He, Yingqian Cui, Shenglai Zeng, Jiankun Zhang, Hongzhi Wen, Jiayuan Ding, Pei Huang, Lingjuan Lyu, Hui Liu, Yi Chang, Jiliang Tang</p>
+      <p class="pub-venue"><a class="pub-link" href="https://arxiv.org/abs/2402.02333" target="_blank">Paper</a></p>
     </article>
   </div>
 
@@ -481,114 +482,114 @@ html.dark .theme-toggle .i-moon{display:none}
   <h3 class="subheading">Publications</h3>
   <div class="publication-list">
     <article class="publication first" data-tags="ra un">
-      <p class="pub-title"><a href="https://openreview.net/forum?id=G5f8S6b2p6" target="_blank">Early Signals, Strong Decisions: Prefix-Guided Sampling for Parallel Test-Time Scaling</a></p>
+      <p class="pub-title">Early Signals, Strong Decisions: Prefix-Guided Sampling for Parallel Test-Time Scaling</p>
       <p class="pub-authors"><b>Jie Ren</b>, Jonathan Rosenfeld, Neil Thompson</p>
-      <p class="pub-venue"><span class="venue">NeurIPS 2026</span></p>
+      <p class="pub-venue"><span class="venue">NeurIPS 2026</span><a class="pub-link" href="https://openreview.net/forum?id=G5f8S6b2p6" target="_blank">Paper</a></p>
     </article>
     <article class="publication" data-tags="un ra">
-      <p class="pub-title"><a href="https://arxiv.org/pdf/2605.14192" target="_blank">Why Retrieval-Augmented Generation Fails: A Graph Perspective</a></p>
+      <p class="pub-title">Why Retrieval-Augmented Generation Fails: A Graph Perspective</p>
       <p class="pub-authors">Kai Guo, Xinnan Dai, Zhibo Zhang, Nuohan Lin, Shenglai Zeng, <b>Jie Ren</b>, Haoyu Han, Jiliang Tang</p>
-      <p class="pub-venue"><span class="venue">KDD 2026</span></p>
+      <p class="pub-venue"><span class="venue">KDD 2026</span><a class="pub-link" href="https://arxiv.org/pdf/2605.14192" target="_blank">Paper</a></p>
     </article>
     <article class="publication first" data-tags="dp un">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2506.00359" target="_blank">Keeping an Eye on LLM Unlearning: The Hidden Risk and Remedy</a></p>
+      <p class="pub-title">Keeping an Eye on LLM Unlearning: The Hidden Risk and Remedy</p>
       <p class="pub-authors"><b>Jie Ren</b>, Zhenwei Dai, Xianfeng Tang, Yue Xing, Shenglai Zeng, Hui Liu, Jingying Zeng, Qiankun Peng, Samarth Varshney, Suhang Wang, Qi He, Charu C. Aggarwal, Hui Liu</p>
-      <p class="pub-venue"><span class="venue">NeurIPS 2025</span></p>
+      <p class="pub-venue"><span class="venue">NeurIPS 2025</span><a class="pub-link" href="https://arxiv.org/abs/2506.00359" target="_blank">Paper</a></p>
     </article>
     <article class="publication" data-tags="dp">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2505.13957" target="_blank">Beyond Text: Unveiling Privacy Vulnerabilities in Multi-modal Retrieval-Augmented Generation</a></p>
+      <p class="pub-title">Beyond Text: Unveiling Privacy Vulnerabilities in Multi-modal Retrieval-Augmented Generation</p>
       <p class="pub-authors">Jiankun Zhang, Shenglai Zeng, <b>Jie Ren</b>, Tianqi Zheng, Hui Liu, Xianfeng Tang, Hui Liu, Yi Chang</p>
-      <p class="pub-venue"><span class="venue">EMNLP 2025</span></p>
+      <p class="pub-venue"><span class="venue">EMNLP 2025</span><a class="pub-link" href="https://arxiv.org/abs/2505.13957" target="_blank">Paper</a></p>
     </article>
     <article class="publication" data-tags="dp">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2406.14773" target="_blank">Mitigating the Privacy Issues in Retrieval-Augmented Generation (RAG) via Pure Synthetic Data</a></p>
+      <p class="pub-title">Mitigating the Privacy Issues in Retrieval-Augmented Generation (RAG) via Pure Synthetic Data</p>
       <p class="pub-authors">Shenglai Zeng, Jiankun Zhang, Pengfei He, <b>Jie Ren</b>, Tianqi Zheng, Hanqing Lu, Han Xu, Hui Liu, Yue Xing, Jiliang Tang</p>
-      <p class="pub-venue"><span class="venue">EMNLP 2025</span></p>
+      <p class="pub-venue"><span class="venue">EMNLP 2025</span><a class="pub-link" href="https://arxiv.org/abs/2406.14773" target="_blank">Paper</a></p>
     </article>
     <article class="publication first" data-tags="dp un">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2502.17823" target="_blank">A General Framework to Enhance Fine-tuning-based LLM Unlearning</a></p>
+      <p class="pub-title">A General Framework to Enhance Fine-tuning-based LLM Unlearning</p>
       <p class="pub-authors"><b>Jie Ren</b>, Zhenwei Dai, Xianfeng Tang, Hui Liu, Jingying Zeng, Zhen Li, Rahul Goutam, Suhang Wang, Yue Xing, Qi He, Hui Liu</p>
-      <p class="pub-venue"><span class="venue">ACL 2025 Findings</span></p>
+      <p class="pub-venue"><span class="venue">ACL 2025 Findings</span><a class="pub-link" href="https://arxiv.org/abs/2502.17823" target="_blank">Paper</a></p>
     </article>
     <article class="publication first" data-tags="dp">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2406.14855" target="_blank">Six-CD: Benchmarking Concept Removals for Benign Text-to-image Diffusion Models</a></p>
+      <p class="pub-title">Six-CD: Benchmarking Concept Removals for Benign Text-to-image Diffusion Models</p>
       <p class="pub-authors"><b>Jie Ren</b>*, Kangrui Chen*, Yingqian Cui, Shenglai Zeng, Hui Liu, Yue Xing, Jiliang Tang, Lingjuan Lyu</p>
-      <p class="pub-venue"><span class="venue">CVPR 2025</span></p>
+      <p class="pub-venue"><span class="venue">CVPR 2025</span><a class="pub-link" href="https://arxiv.org/abs/2406.14855" target="_blank">Paper</a></p>
     </article>
     <article class="publication first" data-tags="dp un">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2410.13088" target="_blank">Self-Comparison for Dataset-Level Membership Inference in Large (Vision-)Language Models</a></p>
+      <p class="pub-title">Self-Comparison for Dataset-Level Membership Inference in Large (Vision-)Language Models</p>
       <p class="pub-authors"><b>Jie Ren</b>, Kangrui Chen, Chen Chen, Vikash Sehwag, Yue Xing, Jiliang Tang, Lingjuan Lyu</p>
-      <p class="pub-venue"><span class="venue">WWW 2025</span><span class="award">Oral</span></p>
+      <p class="pub-venue"><span class="venue">WWW 2025</span><span class="award">Oral</span><a class="pub-link" href="https://arxiv.org/abs/2410.13088" target="_blank">Paper</a></p>
     </article>
     <article class="publication" data-tags="un">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2401.17426" target="_blank">Superiority of Multi-Head Attention in In-Context Linear Regression</a></p>
+      <p class="pub-title">Superiority of Multi-Head Attention in In-Context Linear Regression</p>
       <p class="pub-authors">Yingqian Cui, <b>Jie Ren</b>, Pengfei He, Jiliang Tang, Yue Xing</p>
-      <p class="pub-venue"><span class="venue">AISTATS 2025</span></p>
+      <p class="pub-venue"><span class="venue">AISTATS 2025</span><a class="pub-link" href="https://arxiv.org/abs/2401.17426" target="_blank">Paper</a></p>
     </article>
     <article class="publication first" data-tags="dp un">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2306.04642" target="_blank">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</a></p>
+      <p class="pub-title">DiffusionShield: A Watermark for Copyright Protection against Generative Diffusion Models</p>
       <p class="pub-authors">Yingqian Cui*, <b>Jie Ren</b>*, Han Xu, Pengfei He, Hui Liu, Lichao Sun, Yue Xing, Jiliang Tang</p>
-      <p class="pub-venue"><span class="venue">SIGKDD Explorations 2024</span></p>
+      <p class="pub-venue"><span class="venue">SIGKDD Explorations 2024</span><a class="pub-link" href="https://arxiv.org/abs/2306.04642" target="_blank">Paper</a></p>
     </article>
     <article class="publication" data-tags="dp">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2310.02401" target="_blank">FT-Shield: A Watermark Against Unauthorized Fine-tuning in Text-to-image Diffusion Models</a></p>
+      <p class="pub-title">FT-Shield: A Watermark Against Unauthorized Fine-tuning in Text-to-image Diffusion Models</p>
       <p class="pub-authors">Yingqian Cui, <b>Jie Ren</b>, Yuping Lin, Han Xu, Pengfei He, Yue Xing, Lingjuan Lyu, Wenqi Fan, Hui Liu, Jiliang Tang</p>
-      <p class="pub-venue"><span class="venue">SIGKDD Explorations 2024</span></p>
+      <p class="pub-venue"><span class="venue">SIGKDD Explorations 2024</span><a class="pub-link" href="https://arxiv.org/abs/2310.02401" target="_blank">Paper</a></p>
     </article>
     <article class="publication" data-tags="dp">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2310.05263" target="_blank">Stealthy Backdoor Attack via Confidence-driven Sampling</a></p>
+      <p class="pub-title">Stealthy Backdoor Attack via Confidence-driven Sampling</p>
       <p class="pub-authors">Pengfei He, Han Xu, <b>Jie Ren</b>, Yingqian Cui, Shenglai Zeng, Yue Xing, Jiliang Tang, Makoto Yamada, Mohammad Sabokrou</p>
-      <p class="pub-venue"><span class="venue">TMLR 2024</span></p>
+      <p class="pub-venue"><span class="venue">TMLR 2024</span><a class="pub-link" href="https://arxiv.org/abs/2310.05263" target="_blank">Paper</a></p>
     </article>
     <article class="publication" data-tags="dp un">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2310.01307" target="_blank">On the Generalization of Training-based ChatGPT Detection Methods</a></p>
+      <p class="pub-title">On the Generalization of Training-based ChatGPT Detection Methods</p>
       <p class="pub-authors">Han Xu, <b>Jie Ren</b>, Pengfei He, Shenglai Zeng, Yingqian Cui, Amy Liu, Hui Liu, Jiliang Tang</p>
-      <p class="pub-venue"><span class="venue">EMNLP 2024 Findings</span></p>
+      <p class="pub-venue"><span class="venue">EMNLP 2024 Findings</span><a class="pub-link" href="https://arxiv.org/abs/2310.01307" target="_blank">Paper</a></p>
     </article>
     <article class="publication first" data-tags="dp un">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2403.11052" target="_blank">Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention</a></p>
+      <p class="pub-title">Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention</p>
       <p class="pub-authors"><b>Jie Ren</b>, Yaxin Li, Shenglai Zeng, Han Xu, Lingjuan Lyu, Yue Xing, Jiliang Tang</p>
-      <p class="pub-venue"><span class="venue">ECCV 2024</span></p>
+      <p class="pub-venue"><span class="venue">ECCV 2024</span><a class="pub-link" href="https://arxiv.org/abs/2403.11052" target="_blank">Paper</a></p>
     </article>
     <article class="publication" data-tags="dp un">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2310.06714" target="_blank">Exploring Memorization in Fine-tuned Language Models</a></p>
+      <p class="pub-title">Exploring Memorization in Fine-tuned Language Models</p>
       <p class="pub-authors">Shenglai Zeng, Yaxin Li, <b>Jie Ren</b>, Yiding Liu, Han Xu, Pengfei He, Yue Xing, Shuaiqiang Wang, Jiliang Tang, Dawei Yin</p>
-      <p class="pub-venue"><span class="venue">ACL 2024</span></p>
+      <p class="pub-venue"><span class="venue">ACL 2024</span><a class="pub-link" href="https://arxiv.org/abs/2310.06714" target="_blank">Paper</a></p>
     </article>
     <article class="publication" data-tags="dp un">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2402.16893" target="_blank">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)</a></p>
+      <p class="pub-title">The Good and The Bad: Exploring Privacy Issues in Retrieval-Augmented Generation (RAG)</p>
       <p class="pub-authors">Shenglai Zeng, Jiankun Zhang, Pengfei He, Yue Xing, Yiding Liu, Han Xu, <b>Jie Ren</b>, Shuaiqiang Wang, Dawei Yin, Yi Chang, Jiliang Tang</p>
-      <p class="pub-venue"><span class="venue">ACL 2024 Findings</span></p>
+      <p class="pub-venue"><span class="venue">ACL 2024 Findings</span><a class="pub-link" href="https://arxiv.org/abs/2402.16893" target="_blank">Paper</a></p>
     </article>
     <article class="publication first" data-tags="dp">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2311.08721" target="_blank">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</a></p>
+      <p class="pub-title">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</p>
       <p class="pub-authors"><b>Jie Ren</b>, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin, Jiliang Tang</p>
-      <p class="pub-venue"><span class="venue">NAACL 2024 Findings</span></p>
+      <p class="pub-venue"><span class="venue">NAACL 2024 Findings</span><a class="pub-link" href="https://arxiv.org/abs/2311.08721" target="_blank">Paper</a></p>
     </article>
     <article class="publication" data-tags="dp">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2305.14851" target="_blank">Sharpness-Aware Data Poisoning Attack</a></p>
+      <p class="pub-title">Sharpness-Aware Data Poisoning Attack</p>
       <p class="pub-authors">Pengfei He, Han Xu, <b>Jie Ren</b>, Yingqian Cui, Hui Liu, Charu C. Aggarwal, Jiliang Tang</p>
-      <p class="pub-venue"><span class="venue">ICLR 2024</span><span class="award">Spotlight, top 5%</span></p>
+      <p class="pub-venue"><span class="venue">ICLR 2024</span><span class="award">Spotlight, top 5%</span><a class="pub-link" href="https://arxiv.org/abs/2305.14851" target="_blank">Paper</a></p>
     </article>
     <article class="publication first" data-tags="dp">
-      <p class="pub-title"><a href="https://openaccess.thecvf.com/content/WACV2024/html/Li_Neural_Style_Protection_Counteracting_Unauthorized_Neural_Style_Transfer_WACV_2024_paper.html" target="_blank">Neural Style Protection: Counteracting Unauthorized Neural Style Transfer</a></p>
+      <p class="pub-title">Neural Style Protection: Counteracting Unauthorized Neural Style Transfer</p>
       <p class="pub-authors">Yaxin Li*, <b>Jie Ren</b>*, Han Xu, Hui Liu</p>
-      <p class="pub-venue"><span class="venue">WACV 2024</span></p>
+      <p class="pub-venue"><span class="venue">WACV 2024</span><a class="pub-link" href="https://openaccess.thecvf.com/content/WACV2024/html/Li_Neural_Style_Protection_Counteracting_Unauthorized_Neural_Style_Transfer_WACV_2024_paper.html" target="_blank">Paper</a></p>
     </article>
     <article class="publication first" data-tags="dp">
-      <p class="pub-title"><a href="https://openreview.net/forum?id=-htnolWDLvP" target="_blank">Transferable Unlearnable Examples</a></p>
+      <p class="pub-title">Transferable Unlearnable Examples</p>
       <p class="pub-authors"><b>Jie Ren</b>, Han Xu, Yuxuan Wan, Xingjun Ma, Lichao Sun, Jiliang Tang</p>
-      <p class="pub-venue"><span class="venue">ICLR 2023</span></p>
+      <p class="pub-venue"><span class="venue">ICLR 2023</span><a class="pub-link" href="https://openreview.net/forum?id=-htnolWDLvP" target="_blank">Paper</a></p>
     </article>
     <article class="publication" data-tags="">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2210.09364" target="_blank">Probabilistic Categorical Adversarial Attack and Adversarial Training</a></p>
+      <p class="pub-title">Probabilistic Categorical Adversarial Attack and Adversarial Training</p>
       <p class="pub-authors">Pengfei He, Han Xu, <b>Jie Ren</b>, Yuxuan Wan, Zitao Liu, Jiliang Tang</p>
-      <p class="pub-venue"><span class="venue">ICML 2023</span></p>
+      <p class="pub-venue"><span class="venue">ICML 2023</span><a class="pub-link" href="https://arxiv.org/abs/2210.09364" target="_blank">Paper</a></p>
     </article>
     <article class="publication" data-tags="">
-      <p class="pub-title"><a href="https://ieeexplore.ieee.org/document/9835353" target="_blank">Uniting Heterogeneity, Inductiveness, and Efficiency for Graph Representation Learning</a></p>
+      <p class="pub-title">Uniting Heterogeneity, Inductiveness, and Efficiency for Graph Representation Learning</p>
       <p class="pub-authors">Tong Chen, Hongzhi Yin, <b>Jie Ren</b>, Zi Huang, Xiangliang Zhang, Hao Wang</p>
-      <p class="pub-venue"><span class="venue">TKDE 2021</span></p>
+      <p class="pub-venue"><span class="venue">TKDE 2021</span><a class="pub-link" href="https://ieeexplore.ieee.org/document/9835353" target="_blank">Paper</a></p>
     </article>
   </div>
 
@@ -596,9 +597,9 @@ html.dark .theme-toggle .i-moon{display:none}
   <h3 class="subheading">Workshops</h3>
   <div class="publication-list">
     <article class="publication first" data-tags="dp">
-      <p class="pub-title"><a href="https://arxiv.org/abs/2406.13933v1" target="_blank">EnTruth: Tracing the Unauthorized Dataset Usage in Diffusion Models</a></p>
+      <p class="pub-title">EnTruth: Tracing the Unauthorized Dataset Usage in Diffusion Models</p>
       <p class="pub-authors"><b>Jie Ren</b>, Yingqian Cui, Chen Chen, Yue Xing, Hui Liu, Lingjuan Lyu</p>
-      <p class="pub-venue"><span class="venue">NeurIPS 2025 Workshop on GenProCC</span><span class="award">Oral</span></p>
+      <p class="pub-venue"><span class="venue">NeurIPS 2025 Workshop on GenProCC</span><span class="award">Oral</span><a class="pub-link" href="https://arxiv.org/abs/2406.13933v1" target="_blank">Paper</a></p>
     </article>
   </div>
 
@@ -770,7 +771,7 @@ html.dark .theme-toggle .i-moon{display:none}
 })();
 </script>
 
-<!-- Collapse the nav into a menu when its links do not fit on one line; tap research cards on phones -->
+<!-- Collapse the nav into a menu when its links do not fit on one line -->
 <script>
 (function () {
   var header = document.querySelector('.site-header'), nav = header.querySelector('nav');
@@ -791,13 +792,6 @@ html.dark .theme-toggle .i-moon{display:none}
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
   fit();
 
-  var phone = window.matchMedia('(max-width:700px)');
-  document.querySelectorAll('.theme').forEach(function (card) {
-    card.addEventListener('click', function (e) {
-      if (!phone.matches || e.target.closest('.theme-link')) return;
-      card.classList.toggle('open');
-    });
-  });
 })();
 </script>
 
