@@ -124,12 +124,11 @@ main{max-width:var(--max);margin:0 auto;padding:0 1.5rem 3rem}
 .quick-links span{color:var(--muted);font-weight:400;background:var(--soft)}
 
 /* ---------- sections ---------- */
-.content-section{padding-top:2.2rem}
+.content-section{padding-top:2.6rem}
 .section-heading{
   display:flex;align-items:center;gap:1rem;
   margin:0 0 1rem;font-size:1.45rem;line-height:1.2;font-weight:700;color:var(--ink)
 }
-.section-heading::after{content:"";flex:1;height:1px;background:var(--line)}
 .section-intro{margin:0 0 1.4rem;color:var(--body)}
 .subheading{
   margin:1.8rem 0 .5rem;font-size:1.02rem;font-weight:700;color:var(--muted);
@@ -138,15 +137,16 @@ main{max-width:var(--max);margin:0 auto;padding:0 1.5rem 3rem}
 
 /* ---------- news ---------- */
 .news-box{
-  position:relative;max-height:220px;overflow-y:auto;-webkit-overflow-scrolling:touch;
-  border:1px solid var(--line);border-radius:10px;background:var(--card);padding:.6rem 0
+  position:relative;max-height:228px;overflow-y:auto;-webkit-overflow-scrolling:touch;
+  padding:0 .5rem 0 0;background:transparent
 }
 .news-list{list-style:none;margin:0;padding:0}
-.news-list li{position:relative;padding:.18rem 1.2rem .18rem 7.2rem;line-height:1.55}
-.news-date{position:absolute;left:1.2rem;top:.22rem;color:var(--faint);font-size:.88rem;font-weight:700;font-variant-numeric:tabular-nums}
+.news-list li{position:relative;padding:.18rem 0 .18rem 6rem;line-height:1.55}
+.news-date{position:absolute;left:0;top:.22rem;color:var(--faint);font-size:.88rem;font-weight:700;font-variant-numeric:tabular-nums}
 .news-box::-webkit-scrollbar{width:8px}
 .news-box::-webkit-scrollbar-thumb{background:var(--line-strong);border-radius:4px}
-.news-hint{margin:.5rem 0 0;color:var(--faint);font-size:.82rem}
+.news-hint{margin:-.7rem 0 .55rem;color:var(--faint);font-size:.82rem;transition:opacity .2s ease}
+.news-hint.hide{opacity:0}
 
 /* ---------- research themes ---------- */
 .themes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:.4rem 0 1.6rem}
@@ -159,7 +159,8 @@ main{max-width:var(--max);margin:0 auto;padding:0 1.5rem 3rem}
 
 /* ---------- filters ---------- */
 .toolbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.8rem 1.5rem;
-  padding:.9rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  padding:.9rem 0 0;border-top:1px solid var(--line)}
+.toolbar + .subheading{margin-top:1.1rem}
 .filter-row{display:flex;flex-wrap:wrap;gap:6px}
 .filter{
   display:inline-flex;align-items:center;gap:.45rem;
@@ -226,8 +227,8 @@ nav a.active{color:var(--ink);background:var(--soft)}
 .hero-copy > p{max-width:620px}
 
 .news-box{scrollbar-width:thin;scrollbar-color:var(--line-strong) transparent}
-.news-box::after{content:"";position:sticky;display:block;bottom:-.6rem;height:34px;margin-top:-34px;
-  background:linear-gradient(to bottom,transparent,var(--card));pointer-events:none;transition:opacity .2s ease}
+.news-box::after{content:"";position:sticky;display:block;bottom:0;height:48px;margin-top:-48px;
+  background:linear-gradient(to bottom,transparent,var(--bg));pointer-events:none;transition:opacity .2s ease}
 .news-box.at-end::after{opacity:0}
 .news-list li b{color:var(--ink)}
 .award-text{color:var(--award);font-weight:700}
@@ -310,8 +311,8 @@ html.dark .theme-toggle .i-moon{display:none}
   .quick-links a,.quick-links span{justify-content:center;padding:.5rem .5rem;font-size:.88rem}
 
   /* news: date inline with the item */
-  .news-box{max-height:270px;padding:.5rem 0}
-  .news-list li{padding:.3rem .9rem;line-height:1.5;font-size:.94rem}
+  .news-box{max-height:270px;padding:0}
+  .news-list li{padding:.3rem 0;line-height:1.5;font-size:.94rem}
   .news-date{position:static;display:inline;margin-right:.45rem;font-size:.82rem}
 
   /* research cards: compact, description opens on tap */
@@ -339,7 +340,7 @@ html.dark .theme-toggle .i-moon{display:none}
   .year-list .yr{position:static;display:block}
   .service-grid{grid-template-columns:1fr;gap:0}
   .service-grid dd{margin-bottom:.7rem}
-  footer{width:calc(100% - 2rem);padding:1.4rem 0 2rem}
+  footer{width:calc(100% - 2rem);padding:1.4rem 0 4.5rem}
 }
 </style>
 </head>
@@ -376,6 +377,7 @@ html.dark .theme-toggle .i-moon{display:none}
 <!-- ============================== NEWS ============================== -->
 <section id="news" class="content-section">
   <h2 class="section-heading">News</h2>
+  <p class="news-hint" aria-hidden="true">Scroll down to see more ↓</p>
   <div class="news-box" tabindex="0" role="region" aria-label="News archive">
     <ul class="news-list">
       <li><span class="news-date">Oct 2026</span> Invited to serve as an Area Chair for ARR Oct. 2026.</li>
@@ -765,7 +767,12 @@ html.dark .theme-toggle .i-moon{display:none}
   onScroll();
 
   var box = document.querySelector('.news-box');
-  function onNews() { box.classList.toggle('at-end', box.scrollTop + box.clientHeight >= box.scrollHeight - 4); }
+  var hint = document.querySelector('.news-hint');
+  function onNews() {
+    var end = box.scrollTop + box.clientHeight >= box.scrollHeight - 4;
+    box.classList.toggle('at-end', end);
+    if (hint) hint.classList.toggle('hide', end);
+  }
   box.addEventListener('scroll', onNews, { passive: true });
   onNews();
 })();
