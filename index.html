@@ -195,6 +195,15 @@ main{max-width:var(--max);margin:0 auto;padding:0 1.5rem 3rem}
 .category-label i::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--c)}
 .category-label .dp{--c:var(--dp)} .category-label .un{--c:var(--un)} .category-label .ra{--c:var(--ra)}
 body.filtering .category-label{display:flex;flex-wrap:wrap}
+.pub-desc{display:none;margin:.45rem 0 .1rem;padding:.05rem 0 .05rem .75rem;border-left:2px solid color-mix(in srgb,var(--jm) 55%,var(--bg));
+  color:var(--body);font-size:.93rem;line-height:1.6}
+.pub-desc b{color:var(--jm);font-weight:700}
+body.show-desc .pub-desc{display:block}
+body.show-desc .publication{order:var(--so,0)}  /* Selected view: custom order */
+.filter[data-filter="sel"]{--c:var(--jm);color:var(--jm);border-color:color-mix(in srgb,var(--jm) 45%,var(--bg))}
+.filter.sel .star{font-size:.8rem;line-height:1}
+.filter.sel.active{color:var(--on-c)}
+.filter-sep{width:1px;align-self:stretch;margin:.2rem .3rem;background:var(--line-strong)}
 .empty{display:none;color:var(--muted);font-style:italic;margin:1rem 0}
 .empty.show{display:block}
 
@@ -451,6 +460,8 @@ html.dark .theme-toggle .i-moon{display:none}
   <div class="toolbar">
     <div class="filter-row" role="group" aria-label="Filter papers by research area (papers may appear in more than one area)">
       <button class="filter all active" data-filter="all" aria-pressed="true"><span class="name">All</span><span class="count"></span></button>
+      <button class="filter sel" data-filter="sel" aria-pressed="false"><span class="star" aria-hidden="true">★</span><span class="name">Selected</span><span class="count"></span></button>
+      <span class="filter-sep" aria-hidden="true"></span>
       <button class="filter" data-filter="dp" aria-pressed="false"><span class="dot"></span><span class="name">Data Protection</span><span class="count"></span></button>
       <button class="filter" data-filter="un" aria-pressed="false"><span class="dot"></span><span class="name">Understanding AI Behaviors</span><span class="count"></span></button>
       <button class="filter" data-filter="ra" aria-pressed="false"><span class="dot"></span><span class="name">Reasoning &amp; Agents</span><span class="count"></span></button>
@@ -491,9 +502,10 @@ html.dark .theme-toggle .i-moon{display:none}
   <!-- ---------- Publications ---------- -->
   <h3 class="subheading">Publications</h3>
   <div class="publication-list">
-    <article class="publication first" data-tags="ra un">
+    <article class="publication first" data-tags="ra un sel" style="--so:1">
       <p class="pub-title">Early Signals, Strong Decisions: Prefix-Guided Sampling for Parallel Test-Time Scaling</p>
       <p class="pub-authors"><b>Jie Ren</b>, Jonathan Rosenfeld, Neil Thompson</p>
+      <p class="pub-desc"><b>Explains</b> how confidence scores drive answer aggregation across reasoning traces in parallel test-time scaling, then turns this into a general, more efficient way to use confidence that also improves accuracy.</p>
       <p class="pub-venue"><span class="venue">NeurIPS 2026</span><a class="pub-link" href="https://arxiv.org/abs/2611.14965" target="_blank">Paper</a><a class="pub-link" href="https://github.com/renjie3/PreG" target="_blank">Code</a></p>
     </article>
     <article class="publication" data-tags="un ra">
@@ -501,9 +513,10 @@ html.dark .theme-toggle .i-moon{display:none}
       <p class="pub-authors">Kai Guo, Xinnan Dai, Zhibo Zhang, Nuohan Lin, Shenglai Zeng, <b>Jie Ren</b>, Haoyu Han, Jiliang Tang</p>
       <p class="pub-venue"><span class="venue">KDD 2026</span><a class="pub-link" href="https://arxiv.org/pdf/2605.14192" target="_blank">Paper</a><a class="pub-link" href="https://github.com/KaiGuo20/Circuit_RAG" target="_blank">Code</a></p>
     </article>
-    <article class="publication first" data-tags="dp un">
+    <article class="publication first" data-tags="dp un sel" style="--so:2">
       <p class="pub-title">Keeping an Eye on LLM Unlearning: The Hidden Risk and Remedy</p>
       <p class="pub-authors"><b>Jie Ren</b>, Zhenwei Dai, Xianfeng Tang, Yue Xing, Shenglai Zeng, Hui Liu, Jingying Zeng, Qiankun Peng, Samarth Varshney, Suhang Wang, Qi He, Charu C. Aggarwal, Hui Liu</p>
+      <p class="pub-desc"><b>Uncovers</b> that fine-tuning-based unlearning mistakes common benign tokens for unlearning signals, so a crafted forgetting request can quietly degrade the model for normal users, and fixes this by keeping unlearning within its intended scope.</p>
       <p class="pub-venue"><span class="venue">NeurIPS 2025</span><a class="pub-link" href="https://arxiv.org/abs/2506.00359" target="_blank">Paper</a><a class="pub-link" href="https://github.com/renjie3/sa_su" target="_blank">Code</a></p>
     </article>
     <article class="publication" data-tags="dp">
@@ -516,9 +529,10 @@ html.dark .theme-toggle .i-moon{display:none}
       <p class="pub-authors">Shenglai Zeng, Jiankun Zhang, Pengfei He, <b>Jie Ren</b>, Tianqi Zheng, Hanqing Lu, Han Xu, Hui Liu, Yue Xing, Jiliang Tang</p>
       <p class="pub-venue"><span class="venue">EMNLP 2025</span><a class="pub-link" href="https://arxiv.org/abs/2406.14773" target="_blank">Paper</a><a class="pub-link" href="https://github.com/phycholosogy/RAG-SAGE" target="_blank">Code</a></p>
     </article>
-    <article class="publication first" data-tags="dp un">
+    <article class="publication first" data-tags="dp un sel" style="--so:3">
       <p class="pub-title">A General Framework to Enhance Fine-tuning-based LLM Unlearning</p>
       <p class="pub-authors"><b>Jie Ren</b>, Zhenwei Dai, Xianfeng Tang, Hui Liu, Jingying Zeng, Zhen Li, Rahul Goutam, Suhang Wang, Yue Xing, Qi He, Hui Liu</p>
+      <p class="pub-desc"><b>Shows</b> that fine-tuning-based unlearning does not truly erase knowledge and explains what it actually changes in the model, then builds on this to unlearn without hurting the model&rsquo;s utility.</p>
       <p class="pub-venue"><span class="venue">ACL 2025 Findings</span><a class="pub-link" href="https://arxiv.org/abs/2502.17823" target="_blank">Paper</a><a class="pub-link" href="https://github.com/renjie3/GRUN" target="_blank">Code</a></p>
     </article>
     <article class="publication first" data-tags="dp">
@@ -526,9 +540,10 @@ html.dark .theme-toggle .i-moon{display:none}
       <p class="pub-authors"><b>Jie Ren</b>*, Kangrui Chen*, Yingqian Cui, Shenglai Zeng, Hui Liu, Yue Xing, Jiliang Tang, Lingjuan Lyu</p>
       <p class="pub-venue"><span class="venue">CVPR 2025</span><a class="pub-link" href="https://arxiv.org/abs/2406.14855" target="_blank">Paper</a><a class="pub-link" href="https://github.com/Artanisax/Six-CD" target="_blank">Code</a></p>
     </article>
-    <article class="publication first" data-tags="dp un">
+    <article class="publication first" data-tags="dp un sel" style="--so:5">
       <p class="pub-title">Self-Comparison for Dataset-Level Membership Inference in Large (Vision-)Language Models</p>
       <p class="pub-authors"><b>Jie Ren</b>, Kangrui Chen, Chen Chen, Vikash Sehwag, Yue Xing, Jiliang Tang, Lingjuan Lyu</p>
+      <p class="pub-desc"><b>Finds</b> that paraphrasing shifts a model&rsquo;s likelihood far more on its training data than on unseen data, and uses this self-comparison to detect whether a dataset was used for training, with no ground-truth member data needed.</p>
       <p class="pub-venue"><span class="venue">WWW 2025</span><span class="award">Oral</span><a class="pub-link" href="https://arxiv.org/abs/2410.13088" target="_blank">Paper</a><a class="pub-link" href="https://github.com/renjie3/Self-Comparison" target="_blank">Code</a></p>
     </article>
     <article class="publication" data-tags="un">
@@ -556,9 +571,10 @@ html.dark .theme-toggle .i-moon{display:none}
       <p class="pub-authors">Han Xu, <b>Jie Ren</b>, Pengfei He, Shenglai Zeng, Yingqian Cui, Amy Liu, Hui Liu, Jiliang Tang</p>
       <p class="pub-venue"><span class="venue">EMNLP 2024 Findings</span><a class="pub-link" href="https://arxiv.org/abs/2310.01307" target="_blank">Paper</a><a class="pub-link" href="https://huggingface.co/datasets/hannxu/hc_var" target="_blank">Dataset</a></p>
     </article>
-    <article class="publication first" data-tags="dp un">
+    <article class="publication first" data-tags="dp un sel" style="--so:4">
       <p class="pub-title">Unveiling and Mitigating Memorization in Text-to-image Diffusion Models through Cross Attention</p>
       <p class="pub-authors"><b>Jie Ren</b>, Yaxin Li, Shenglai Zeng, Han Xu, Lingjuan Lyu, Yue Xing, Jiliang Tang</p>
+      <p class="pub-desc"><b>Reveals</b> how memorization shows up in cross-attention when a diffusion model reproduces training images, and uses these signals to mitigate it.</p>
       <p class="pub-venue"><span class="venue">ECCV 2024</span><a class="pub-link" href="https://arxiv.org/abs/2403.11052" target="_blank">Paper</a><a class="pub-link" href="https://github.com/renjie3/MemAttn" target="_blank">Code</a></p>
     </article>
     <article class="publication" data-tags="dp un">
@@ -571,9 +587,10 @@ html.dark .theme-toggle .i-moon{display:none}
       <p class="pub-authors">Shenglai Zeng, Jiankun Zhang, Pengfei He, Yue Xing, Yiding Liu, Han Xu, <b>Jie Ren</b>, Shuaiqiang Wang, Dawei Yin, Yi Chang, Jiliang Tang</p>
       <p class="pub-venue"><span class="venue">ACL 2024 Findings</span><a class="pub-link" href="https://arxiv.org/abs/2402.16893" target="_blank">Paper</a><a class="pub-link" href="https://github.com/phycholosogy/RAG-privacy" target="_blank">Code</a></p>
     </article>
-    <article class="publication first" data-tags="dp">
+    <article class="publication first" data-tags="dp sel" style="--so:6">
       <p class="pub-title">A Robust Semantics-based Watermark for Large Language Model against Paraphrasing</p>
       <p class="pub-authors"><b>Jie Ren</b>, Han Xu, Yiding Liu, Yingqian Cui, Shuaiqiang Wang, Dawei Yin, Jiliang Tang</p>
+      <p class="pub-desc"><b>Observing</b> that paraphrasing changes the words but keeps the meaning, embeds the watermark in semantic signals so that it remains detectable after paraphrasing.</p>
       <p class="pub-venue"><span class="venue">NAACL 2024 Findings</span><a class="pub-link" href="https://arxiv.org/abs/2311.08721" target="_blank">Paper</a><a class="pub-link" href="https://github.com/renjie3/SemaMark" target="_blank">Code</a></p>
     </article>
     <article class="publication" data-tags="dp">
@@ -689,7 +706,7 @@ html.dark .theme-toggle .i-moon{display:none}
 
   // Category label under each paper, generated from its data-tags
   papers.forEach(function (p) {
-    var tags = (p.dataset.tags || '').split(/\s+/).filter(Boolean);
+    var tags = (p.dataset.tags || '').split(/\s+/).filter(function (t) { return t && t !== 'sel'; });
     if (!tags.length) return;
     var label = document.createElement('div');
     label.className = 'category-label';
@@ -706,7 +723,8 @@ html.dark .theme-toggle .i-moon{display:none}
     var selected = buttons.filter(function (b) { return b.classList.contains('active'); })
                           .map(function (b) { return b.dataset.filter; });
     var showAll = selected.length === 0;
-    document.body.classList.toggle('filtering', !showAll);
+    document.body.classList.toggle('filtering', !showAll && selected.indexOf('sel') === -1);
+    document.body.classList.toggle('show-desc', selected.indexOf('sel') !== -1);
     allButton.classList.toggle('active', showAll);
     allButton.setAttribute('aria-pressed', String(showAll));
     buttons.forEach(function (b) { b.setAttribute('aria-pressed', String(b.classList.contains('active'))); });
@@ -731,7 +749,12 @@ html.dark .theme-toggle .i-moon{display:none}
   }
 
   buttons.forEach(function (b) {
-    b.addEventListener('click', function () { b.classList.toggle('active'); apply(); });
+    b.addEventListener('click', function () {
+      // "Selected" is its own view; it does not combine with the area filters
+      var isSel = b.dataset.filter === 'sel';
+      buttons.forEach(function (o) { if (o !== b && (isSel || o.dataset.filter === 'sel')) o.classList.remove('active'); });
+      b.classList.toggle('active'); apply();
+    });
   });
   allButton.addEventListener('click', function () {
     buttons.forEach(function (b) { b.classList.remove('active'); });
